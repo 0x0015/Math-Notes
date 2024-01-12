@@ -1,0 +1,556 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=latex 2024.1.11)  12 JAN 2024 01:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
+documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
+ tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  ../../../ord
+diff.tex
+ (../../../orddiff.tex
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2023-02-03-14:48
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks16
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2023-01-12-14:08
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks18
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
+version 2022-07-05-14:37
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2023-02-03-14:48
+
+l.864 --- TeX4ht warning --- nonprimitive \everypar ---
+--- needs --- tex4ht orddiff ---
+\tmp:cnt=\count271
+\openout15 = `orddiff.tmp'.
+
+(./orddiff.tmp)
+\tmp:dim=\skip53
+--------------------------------------
+--- Note --- for XML code, use the command line option `xml' or `xhtml'
+--------------------------------------
+ (./orddiff.xref)
+\:refout=\write3
+\openout3 = `orddiff.xref'.
+
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- for alternative charset, use the command line option `charset=...'
+
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: html
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+)
+\:tokwrite=\toks22
+\:tokpage=\toks23
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `orddiff.4ct'.
+
+\:tocout=\write4
+\openout4 = `orddiff.4tc'.
+
+ (orddiff.4tc)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2022-12-26-13:00
+LaTeX Info: Redefining \_ on input line 177.
+LaTeX Info: Redefining \begin on input line 595.
+LaTeX Info: Redefining \end on input line 643.
+LaTeX Info: Redefining \, on input line 805.
+LaTeX Info: Redefining \; on input line 806.
+LaTeX Info: Redefining \! on input line 807.
+LaTeX Info: Redefining \: on input line 808.
+LaTeX Info: Redefining \> on input line 809.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+--------------------------------------
+--- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ environments, use the command line option `pic
+-m' (not recommended!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
+he command line option `pic-m+' (not safe!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+))
+(/usr/share/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2022-10-25-13:59
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+))
+(/usr/share/texmf-dist/tex/generic/tex4ht/article.4ht
+version 2023-02-25-15:08
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `
+1', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+))
+(/usr/share/texmf-dist/tex/generic/tex4ht/amsmath.4ht
+version 2019-12-29-14:17
+\tmp:muskip=\muskip17
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+LaTeX Info: Redefining \[ on input line 507.
+LaTeX Info: Redefining \] on input line 507.
+))
+(/usr/share/texmf-dist/tex/generic/tex4ht/amstext.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+))
+(/usr/share/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+))
+(/usr/share/texmf-dist/tex/generic/tex4ht/amsopn.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+))
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+)
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2023-01-16 L3 backend support: dvips
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count272
+\l__pdf_backend_content_box=\box54
+\l__pdf_backend_model_box=\box55
+\g__pdf_backend_annotation_int=\count273
+\g__pdf_backend_link_int=\count274
+\g__pdf_backend_link_sf_int=\count275
+) (./orddiff.aux)
+\openout1 = `orddiff.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+--- file orddiff.css ---
+[1
+
+] [2]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 11.
+l. 25 Writing orddiff.idv[1] (orddiff0x.png)
+l. 30 Writing orddiff.idv[2] (orddiff1x.png)
+l. 31 Writing orddiff.idv[3] (orddiff2x.png)
+l. 32 Writing orddiff.idv[4] (orddiff3x.png)
+l. 33 Writing orddiff.idv[5] (orddiff4x.png)
+l. 33 Writing orddiff.idv[6] (orddiff5x.png)
+l. 34 Writing orddiff.idv[7] (orddiff6x.png)
+l. 35 Writing orddiff.idv[8] (orddiff7x.png)
+l. 36 Writing orddiff.idv[9] (orddiff8x.png)
+l. 36 Writing orddiff.idv[10] (orddiff9x.png)
+l. 38 Writing orddiff.idv[11] (orddiff10x.png)
+l. 40 Writing orddiff.idv[12] (orddiff11x.png)
+ [3]
+l. 41 Writing orddiff.idv[13] (orddiff12x.png)
+l. 54 Writing orddiff.idv[14] (orddiff13x.png)
+l. 54 Writing orddiff.idv[15] (orddiff14x.png)
+l. 56 Writing orddiff.idv[16] (orddiff15x.png)
+l. 62 Writing orddiff.idv[17] (orddiff16x.png)
+ [4]
+l. 66 Writing orddiff.idv[18] (orddiff17x.png)
+l. 66 Writing orddiff.idv[19] (orddiff18x.png)
+l. 66 Writing orddiff.idv[20] (orddiff19x.png)
+l. 66 Writing orddiff.idv[21] (orddiff20x.png)
+l. 68 Writing orddiff.idv[22] (orddiff21x.png)
+l. 72 Writing orddiff.idv[23] (orddiff22x.png)
+l. 76 Writing orddiff.idv[24] (orddiff23x.png)
+ [5]
+l. 91 Writing orddiff.idv[25] (orddiff24x.png)
+l. 91 Writing orddiff.idv[26] (orddiff25x.png)
+l. 101 Writing orddiff.idv[27] (orddiff26x.png)
+ [6] [7] [8
+
+] [9
+
+]
+l. 134 Writing orddiff.idv[28] (orddiff27x.png)
+l. 139 Writing orddiff.idv[29] (orddiff28x.png)
+l. 139 Writing orddiff.idv[30] (orddiff29x.png)
+l. 143 Writing orddiff.idv[31] (orddiff30x.png)
+ [10
+
+]
+l. 154 Writing orddiff.idv[32] (orddiff31x.png)
+l. 157 Writing orddiff.idv[33] (orddiff32x.png)
+l. 162 Writing orddiff.idv[34] (orddiff33x.png)
+l. 162 Writing orddiff.idv[35] (orddiff34x.png)
+l. 162 Writing orddiff.idv[36] (orddiff35x.png)
+l. 162 Writing orddiff.idv[37] (orddiff36x.png)
+l. 168 Writing orddiff.idv[38] (orddiff37x.png)
+l. 168 Writing orddiff.idv[39] (orddiff38x.png)
+l. 168 Writing orddiff.idv[40] (orddiff39x.png)
+l. 168 Writing orddiff.idv[41] (orddiff40x.png)
+l. 168 Writing orddiff.idv[42] (orddiff41x.png)
+ [11]
+l. 171 Writing orddiff.idv[43] (orddiff42x.png)
+l. 171 Writing orddiff.idv[44] (orddiff43x.png)
+l. 171 Writing orddiff.idv[45] (orddiff44x.png)
+l. 171 Writing orddiff.idv[46] (orddiff45x.png)
+l. 171 Writing orddiff.idv[47] (orddiff46x.png)
+l. 171 Writing orddiff.idv[48] (orddiff47x.png)
+l. 171 Writing orddiff.idv[49] (orddiff48x.png)
+l. 171 Writing orddiff.idv[50] (orddiff49x.png)
+l. 173 Writing orddiff.idv[51] (orddiff50x.png)
+l. 173 Writing orddiff.idv[52] (orddiff51x.png)
+l. 173 Writing orddiff.idv[53] (orddiff52x.png)
+l. 173 Writing orddiff.idv[54] (orddiff53x.png)
+l. 173 Writing orddiff.idv[55] (orddiff54x.png)
+l. 173 Writing orddiff.idv[56] (orddiff55x.png)
+l. 173 Writing orddiff.idv[57] (orddiff56x.png)
+l. 173 Writing orddiff.idv[58] (orddiff57x.png)
+l. 173 Writing orddiff.idv[59] (orddiff58x.png)
+l. 173 Writing orddiff.idv[60] (orddiff59x.png)
+l. 178 Writing orddiff.idv[61] (orddiff60x.png)
+l. 185 Writing orddiff.idv[62] (orddiff61x.png)
+l. 185 Writing orddiff.idv[63] (orddiff62x.png)
+l. 185 Writing orddiff.idv[64] (orddiff63x.png)
+l. 185 Writing orddiff.idv[65] (orddiff64x.png)
+l. 185 Writing orddiff.idv[66] (orddiff65x.png)
+l. 185 Writing orddiff.idv[67] (orddiff66x.png)
+l. 185 Writing orddiff.idv[68] (orddiff67x.png)
+l. 185 Writing orddiff.idv[69] (orddiff68x.png)
+l. 185 Writing orddiff.idv[70] (orddiff69x.png)
+l. 185 Writing orddiff.idv[71] (orddiff70x.png)
+l. 185 Writing orddiff.idv[72] (orddiff71x.png)
+l. 185 Writing orddiff.idv[73] (orddiff72x.png)
+l. 185 Writing orddiff.idv[74] (orddiff73x.png)
+l. 185 Writing orddiff.idv[75] (orddiff74x.png)
+l. 185 Writing orddiff.idv[76] (orddiff75x.png)
+l. 185 Writing orddiff.idv[77] (orddiff76x.png)
+l. 185 Writing orddiff.idv[78] (orddiff77x.png)
+l. 187 Writing orddiff.idv[79] (orddiff78x.png)
+l. 187 Writing orddiff.idv[80] (orddiff79x.png)
+l. 187 Writing orddiff.idv[81] (orddiff80x.png)
+l. 187 Writing orddiff.idv[82] (orddiff81x.png)
+l. 189 Writing orddiff.idv[83] (orddiff82x.png)
+l. 189 Writing orddiff.idv[84] (orddiff83x.png)
+l. 189 Writing orddiff.idv[85] (orddiff84x.png)
+l. 193 Writing orddiff.idv[86] (orddiff85x.png)
+l. 193 Writing orddiff.idv[87] (orddiff86x.png)
+l. 197 Writing orddiff.idv[88] (orddiff87x.png)
+l. 197 Writing orddiff.idv[89] (orddiff88x.png)
+ [12]
+l. 199 Writing orddiff.idv[90] (orddiff89x.png)
+l. 199 Writing orddiff.idv[91] (orddiff90x.png)
+l. 199 Writing orddiff.idv[92] (orddiff91x.png)
+l. 203 Writing orddiff.idv[93] (orddiff92x.png)
+l. 203 Writing orddiff.idv[94] (orddiff93x.png)
+l. 203 Writing orddiff.idv[95] (orddiff94x.png)
+l. 203 Writing orddiff.idv[96] (orddiff95x.png)
+l. 203 Writing orddiff.idv[97] (orddiff96x.png)
+l. 204 Writing orddiff.idv[98] (orddiff97x.png)
+l. 204 Writing orddiff.idv[99] (orddiff98x.png)
+l. 204 Writing orddiff.idv[100] (orddiff99x.png)
+ [13] (./orddiff.aux) ) 
+Here is how much of TeX's memory you used:
+ 5255 strings out of 477986
+ 64786 string characters out of 5840084
+ 1873385 words of memory out of 5000000
+ 25422 multiletter control sequences out of 15000+600000
+ 517838 words of font info for 52 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 59i,9n,74p,1103b,516s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on orddiff.dvi (13 pages, 71996 bytes).

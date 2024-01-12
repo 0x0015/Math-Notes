@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2023.2 (Released July 1, 2023) -->
+<HTML lang="en">
+<HEAD>
+<TITLE>Solving first order linear D.E.s</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2023.2">
+
+<LINK REL="STYLESHEET" HREF="orddiff.css">
+
+<LINK REL="next" HREF="node9.html">
+<LINK REL="previous" HREF="node6.html">
+<LINK REL="next" HREF="node9.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="node9.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="node5.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="node7.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="node9.html">Theorem:</A>
+<B> Up:</B> <A
+ HREF="node5.html">Linear First Order</A>
+<B> Previous:</B> <A
+ HREF="node7.html">Example 1.1.1:</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H4><A ID="SECTION00011020000000000000">
+Solving first order linear D.E.s</A>
+</H4>
+The simplest general method for solving first order linear D.E.s (<!-- MATH
+ $\frac{dy}{dx}+P(x)y=Q(x)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 3.19ex; vertical-align: -0.92ex; " SRC="img4.svg"
+ ALT="$\frac{dy}{dx}+P(x)y=Q(x)$"></SPAN>) is to add an additional function <SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.55ex; vertical-align: -0.70ex; " SRC="img9.svg"
+ ALT="$\mu (x)$"></SPAN>:
+<P><!-- MATH
+ \begin{displaymath}
+\begin{aligned}
+	& D_xy+P(x)y=Q(x) \\
+	& \Leftrightarrow \mu (x)(D_xy+P(x)y)=D_x(\mu (x)y) \\
+	& \Leftrightarrow \mu (x) D_xy+ \mu (x) P(x)y=\mu (x)D_xy + D_x\mu (x)y \\
+	& \Leftrightarrow \mu (x)P(x) = D_x \mu (x)y \\
+	& P(x)=\frac{\mu _x (x)}{\mu (x)} = \frac{d \mu}{\mu} \Rightarrow
+	\int P(x)dx = \int \frac{d \mu}{\mu} = \ln \mu \Rightarrow
+	\mu (x)=e^{\int P(x)dx}
+\end{aligned}
+\end{displaymath}
+ -->
+</P>
+<DIV CLASS="displaymath">
+<IMG
+ STYLE="height: 19.81ex; vertical-align: -9.36ex; " SRC="img10.svg"
+ ALT="\begin{indisplay}
+\begin{aligned}
+&amp; D_xy+P(x)y=Q(x) \\
+&amp; \Leftrightarrow \mu ...
+...\mu} = \ln \mu \Rightarrow
+\mu (x)=e^{\int P(x)dx}
+\end{aligned}\end{indisplay}">
+</DIV><P></P>
+And then <SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.55ex; vertical-align: -0.70ex; " SRC="img9.svg"
+ ALT="$\mu (x)$"></SPAN> can be plugged back in to find y.
+<BR><HR>
+
+</BODY>
+</HTML>

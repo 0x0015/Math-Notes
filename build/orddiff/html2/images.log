@@ -1,0 +1,1209 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.11)  12 JAN 2024 01:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./images.tex
+(./images.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen141
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks17
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks18
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+\sizebox=\box53
+\lthtmlwrite=\write3
+(/usr/share/texmf-dist/tex/latex/preview/preview.sty
+Package: preview 2017/04/24 13.1 (AUCTeX/preview-latex)
+(/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/usr/share/texmf-dist/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen150
+)
+\pr@snippet=\count271
+\pr@box=\box54
+\pr@output=\toks21
+)
+\lthtmlPageBox=\box55
+\lthtmlCropMarkHeight=\dimen151
+\lthtmlCropMarkDepth=\dimen152
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box56
+)
+No file images.aux.
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count273
+\scratchdimen=\dimen153
+\scratchbox=\box57
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen154
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks23
+)
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+
+latex2htmlLength hsize=345.0pt
+
+latex2htmlLength vsize=633.0pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=0.00003pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt plus 1.0pt
+
+latex2htmlLength oddsidemargin=62.0pt
+
+latex2htmlLength evensidemargin=62.0pt
+
+
+:tex2html_wrap_inline710:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline710:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+Preview: Tightpage -32890 -32890 32890 32890
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+:tex2html_wrap_inline712:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline712:lthtmlCropMarkDepth:=3.05562pt:1ex:=4.30554pt
+[2]
+
+:tex2html_wrap_inline715:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline715:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[3]
+
+:tex2html_wrap_inline719:lthtmlCropMarkHeight:=15.32217pt
+
+:tex2html_wrap_inline719:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[4]
+
+:tex2html_wrap_inline722:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline722:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[5]
+
+:tex2html_wrap_inline724:lthtmlCropMarkHeight:=15.32217pt
+
+:tex2html_wrap_inline724:lthtmlCropMarkDepth:=5.19841pt:1ex:=4.30554pt
+[6]
+
+:tex2html_wrap_inline726:lthtmlCropMarkHeight:=14.44843pt
+
+:tex2html_wrap_inline726:lthtmlCropMarkDepth:=4.80951pt:1ex:=4.30554pt
+[7]
+
+:tex2html_wrap_inline728:lthtmlCropMarkHeight:=14.44843pt
+
+:tex2html_wrap_inline728:lthtmlCropMarkDepth:=4.80951pt:1ex:=4.30554pt
+[8]
+
+:tex2html_wrap_inline733:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline733:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[9]
+
+! LaTeX Error: Environment indisplay undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \lthtmlindisplaymathZ
+                           
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.218 \lthtmlindisplaymathZ
+                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.218 \lthtmlindisplaymathZ
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{indisplay}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:indisplay735:lthtmlCropMarkHeight:=50.8123pt
+
+:indisplay735:lthtmlCropMarkDepth:=39.81229pt:1ex:=4.30554pt
+[10]
+
+:tex2html_wrap_inline740:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline740:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[11]
+
+:tex2html_wrap_inline742:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline742:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[12]
+
+:tex2html_wrap_inline746:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline746:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[13]
+
+:tex2html_wrap_inline748:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline748:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[14]
+
+:tex2html_wrap_inline752:lthtmlCropMarkHeight:=20.5001pt
+
+:tex2html_wrap_inline752:lthtmlCropMarkDepth:=9.50012pt:1ex:=4.30554pt
+[15]
+
+:tex2html_wrap_inline755:lthtmlCropMarkHeight:=15.32217pt
+
+:tex2html_wrap_inline755:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[16]
+
+:tex2html_wrap_inline757:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline757:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[17]
+
+:tex2html_wrap_inline760:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline760:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[18]
+
+:tex2html_wrap_inline762:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline762:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[19]
+
+:tex2html_wrap_inline764:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline764:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[20]
+
+:tex2html_wrap_inline767:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline767:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[21]
+
+:tex2html_wrap_inline769:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline769:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[22]
+
+:tex2html_wrap_inline771:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline771:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[23]
+
+:tex2html_wrap_inline774:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline774:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[24]
+
+:tex2html_wrap_inline776:lthtmlCropMarkHeight:=15.32217pt
+
+:tex2html_wrap_inline776:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[25]
+
+:tex2html_wrap_inline780:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline780:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[26]
+
+:tex2html_wrap_inline782:lthtmlCropMarkHeight:=9.66875pt
+
+:tex2html_wrap_inline782:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[27]
+
+:tex2html_wrap_inline784:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline784:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[28]
+
+:tex2html_wrap_inline786:lthtmlCropMarkHeight:=14.88332pt
+
+:tex2html_wrap_inline786:lthtmlCropMarkDepth:=5.19841pt:1ex:=4.30554pt
+[29]
+
+:tex2html_wrap_inline789:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline789:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[30]
+
+:tex2html_wrap_inline791:lthtmlCropMarkHeight:=14.79842pt
+
+:tex2html_wrap_inline791:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[31]
+
+:tex2html_wrap_inline794:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline794:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[32]
+
+:tex2html_wrap_inline798:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline798:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[33]
+
+:tex2html_wrap_inline801:lthtmlCropMarkHeight:=14.44843pt
+
+:tex2html_wrap_inline801:lthtmlCropMarkDepth:=4.80951pt:1ex:=4.30554pt
+[34]
+
+:tex2html_wrap_inline804:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline804:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[35]
+
+:tex2html_wrap_inline806:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline806:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[36]
+
+:tex2html_wrap_inline808:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline808:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[37]
+
+! LaTeX Error: Environment indisplay undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 \lthtmlindisplaymathZ
+                           
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.402 \lthtmlindisplaymathZ
+                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.402 \lthtmlindisplaymathZ
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{indisplay}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:indisplay810:lthtmlCropMarkHeight:=22.0pt
+
+:indisplay810:lthtmlCropMarkDepth:=11.0pt:1ex:=4.30554pt
+[38]
+
+:tex2html_wrap_inline812:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline812:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[39]
+
+:tex2html_wrap_inline815:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline815:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[40]
+
+:tex2html_wrap_inline817:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline817:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[41]
+
+:tex2html_wrap_inline819:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline819:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[42]
+
+:tex2html_wrap_inline821:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline821:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[43]
+
+:tex2html_wrap_inline824:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline824:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[44]
+
+:tex2html_wrap_inline826:lthtmlCropMarkHeight:=12.15079pt
+
+:tex2html_wrap_inline826:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[45]
+
+:tex2html_wrap_inline828:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline828:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[46]
+
+:tex2html_wrap_inline832:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline832:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[47]
+
+:tex2html_wrap_inline834:lthtmlCropMarkHeight:=15.32217pt
+
+:tex2html_wrap_inline834:lthtmlCropMarkDepth:=5.19841pt:1ex:=4.30554pt
+[48]
+
+:tex2html_wrap_inline838:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline838:lthtmlCropMarkDepth:=2.47217pt:1ex:=4.30554pt
+[49]
+
+:tex2html_wrap_inline841:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline841:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[50]
+
+:tex2html_wrap_inline843:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline843:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[51]
+
+:tex2html_wrap_inline847:lthtmlCropMarkHeight:=12.6428pt
+
+:tex2html_wrap_inline847:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[52]
+
+! LaTeX Error: Environment indisplay undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 \lthtmlindisplaymathZ
+                           
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.505 \lthtmlindisplaymathZ
+                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.505 \lthtmlindisplaymathZ
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{indisplay}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:indisplay849:lthtmlCropMarkHeight:=30.8601pt
+
+:indisplay849:lthtmlCropMarkDepth:=19.86009pt:1ex:=4.30554pt
+[53]
+
+:tex2html_wrap_inline851:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline851:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[54]
+
+:tex2html_wrap_inline855:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline855:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[55]
+
+:tex2html_wrap_inline857:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline857:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[56]
+
+:tex2html_wrap_inline859:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline859:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[57]
+
+:tex2html_wrap_inline861:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline861:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[58]
+
+:tex2html_wrap_inline864:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline864:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[59]
+
+:tex2html_wrap_inline866:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline866:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[60]
+
+:tex2html_wrap_inline868:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline868:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[61]
+
+:tex2html_wrap_inline870:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline870:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[62]
+
+:tex2html_wrap_inline872:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline872:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[63]
+
+:tex2html_wrap_inline874:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline874:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[64]
+
+:tex2html_wrap_inline876:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline876:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[65]
+
+:tex2html_wrap_inline881:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline881:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[66]
+
+:tex2html_wrap_inline887:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline887:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[67]
+
+:tex2html_wrap_inline889:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline889:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[68]
+
+:tex2html_wrap_inline891:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline891:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[69]
+
+:tex2html_wrap_inline893:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline893:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[70]
+
+:tex2html_wrap_inline895:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline895:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[71]
+
+:tex2html_wrap_inline897:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline897:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[72]
+
+:tex2html_wrap_inline907:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline907:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[73]
+
+:tex2html_wrap_inline909:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline909:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[74]
+
+:tex2html_wrap_inline915:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline915:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[75]
+
+:tex2html_wrap_inline917:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline917:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[76]
+
+:tex2html_wrap_inline920:lthtmlCropMarkHeight:=11.83333pt
+
+:tex2html_wrap_inline920:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[77]
+
+:tex2html_wrap_inline922:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline922:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[78]
+
+:tex2html_wrap_inline924:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline924:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[79]
+
+:tex2html_wrap_inline926:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline926:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[80]
+
+:tex2html_wrap_inline929:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline929:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[81]
+
+:tex2html_wrap_inline931:lthtmlCropMarkHeight:=20.50012pt
+
+:tex2html_wrap_inline931:lthtmlCropMarkDepth:=9.50012pt:1ex:=4.30554pt
+[82]
+
+:tex2html_wrap_inline934:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline934:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[83]
+
+:tex2html_wrap_inline936:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline936:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[84]
+
+:tex2html_wrap_inline938:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline938:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[85]
+
+:tex2html_wrap_inline940:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline940:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[86]
+
+:tex2html_wrap_inline942:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline942:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[87]
+
+:tex2html_wrap_inline944:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline944:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[88]
+
+:tex2html_wrap_inline949:lthtmlCropMarkHeight:=14.79442pt
+
+:tex2html_wrap_inline949:lthtmlCropMarkDepth:=5.19841pt:1ex:=4.30554pt
+[89]
+
+:tex2html_wrap_inline951:lthtmlCropMarkHeight:=13.47496pt
+
+:tex2html_wrap_inline951:lthtmlCropMarkDepth:=5.19841pt:1ex:=4.30554pt
+[90]
+
+:tex2html_wrap_inline953:lthtmlCropMarkHeight:=11.83333pt
+
+:tex2html_wrap_inline953:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[91]
+
+! LaTeX Error: Environment indisplay undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.751 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.751 \lthtmlindisplaymathZ
+                           
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.751 \lthtmlindisplaymathZ
+                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.751 \lthtmlindisplaymathZ
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{indisplay}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.751 \lthtmlindisplaymathZ
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:indisplay958:lthtmlCropMarkHeight:=34.8763pt
+
+:indisplay958:lthtmlCropMarkDepth:=23.8763pt:1ex:=4.30554pt
+[92]
+
+:tex2html_wrap_inline964:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline964:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[93]
+
+:tex2html_wrap_inline967:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline967:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[94]
+
+:tex2html_wrap_inline969:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline969:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[95]
+
+:tex2html_wrap_inline978:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline978:lthtmlCropMarkDepth:=2.47217pt:1ex:=4.30554pt
+[96]
+
+:tex2html_wrap_inline981:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline981:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[97]
+
+:tex2html_wrap_inline986:lthtmlCropMarkHeight:=19.51393pt
+
+:tex2html_wrap_inline986:lthtmlCropMarkDepth:=11.15974pt:1ex:=4.30554pt
+[98]
+
+:tex2html_wrap_inline988:lthtmlCropMarkHeight:=12.59525pt
+
+:tex2html_wrap_inline988:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[99]
+
+:tex2html_wrap_inline990:lthtmlCropMarkHeight:=9.66875pt
+
+:tex2html_wrap_inline990:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[100]
+
+:tex2html_wrap_inline992:lthtmlCropMarkHeight:=29.82779pt
+
+:tex2html_wrap_inline992:lthtmlCropMarkDepth:=18.82779pt:1ex:=4.30554pt
+[101]
+
+:tex2html_wrap_inline995:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline995:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[102]
+
+:tex2html_wrap_inline998:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline998:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[103]
+
+:tex2html_wrap_inline1000:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline1000:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[104]
+
+:tex2html_wrap_inline1002:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1002:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[105]
+
+:tex2html_wrap_inline1004:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline1004:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[106]
+
+:tex2html_wrap_inline1006:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline1006:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[107]
+
+:tex2html_wrap_inline1009:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1009:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[108]
+
+:tex2html_wrap_inline1011:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline1011:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[109]
+
+:tex2html_wrap_inline1013:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1013:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[110]
+
+:tex2html_wrap_inline1015:lthtmlCropMarkHeight:=19.51393pt
+
+:tex2html_wrap_inline1015:lthtmlCropMarkDepth:=9.79865pt:1ex:=4.30554pt
+[111]
+
+:tex2html_wrap_inline1017:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1017:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[112]
+
+:tex2html_wrap_inline1019:lthtmlCropMarkHeight:=14.49002pt
+
+:tex2html_wrap_inline1019:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[113]
+
+:tex2html_wrap_inline1021:lthtmlCropMarkHeight:=13.93448pt
+
+:tex2html_wrap_inline1021:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[114]
+
+:tex2html_wrap_inline1023:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1023:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[115]
+
+:tex2html_wrap_inline1027:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline1027:lthtmlCropMarkDepth:=2.47217pt:1ex:=4.30554pt
+[116]
+
+:tex2html_wrap_inline1029:lthtmlCropMarkHeight:=14.96107pt
+
+:tex2html_wrap_inline1029:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[117]
+
+:tex2html_wrap_inline1033:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline1033:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[118]
+
+:tex2html_wrap_inline1035:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1035:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[119]
+
+:tex2html_wrap_inline1037:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline1037:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[120]
+
+:tex2html_wrap_inline1039:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1039:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[121]
+
+:tex2html_wrap_inline1042:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1042:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[122]
+
+:tex2html_wrap_inline1044:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline1044:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[123]
+
+:tex2html_wrap_inline1046:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1046:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[124]
+
+:tex2html_wrap_inline1048:lthtmlCropMarkHeight:=14.49002pt
+
+:tex2html_wrap_inline1048:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[125]
+
+:tex2html_wrap_inline1050:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1050:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[126]
+
+:tex2html_wrap_inline1052:lthtmlCropMarkHeight:=14.50005pt
+
+:tex2html_wrap_inline1052:lthtmlCropMarkDepth:=3.50006pt:1ex:=4.30554pt
+[127]
+
+:tex2html_wrap_inline1056:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline1056:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[128]
+
+:tex2html_wrap_inline1058:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline1058:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[129]
+
+:tex2html_wrap_inline1061:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1061:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[130]
+
+:tex2html_wrap_inline1065:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline1065:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[131]
+
+:tex2html_wrap_inline1069:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline1069:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[132]
+
+:tex2html_wrap_inline1071:lthtmlCropMarkHeight:=19.51393pt
+
+:tex2html_wrap_inline1071:lthtmlCropMarkDepth:=9.67783pt:1ex:=4.30554pt
+[133]
+
+:tex2html_wrap_inline1074:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1074:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[134]
+
+:tex2html_wrap_inline1076:lthtmlCropMarkHeight:=14.87892pt
+
+:tex2html_wrap_inline1076:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[135]
+
+:tex2html_wrap_inline1078:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline1078:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[136]
+
+:tex2html_wrap_inline1080:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline1080:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[137]
+
+:tex2html_wrap_inline1082:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline1082:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[138]
+
+:tex2html_wrap_inline1084:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1084:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[139]
+
+:tex2html_wrap_inline1086:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline1086:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[140]
+
+:tex2html_wrap_inline1088:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1088:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[141]
+
+:tex2html_wrap_inline1092:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1092:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[142]
+
+:tex2html_wrap_inline1094:lthtmlCropMarkHeight:=19.51393pt
+
+:tex2html_wrap_inline1094:lthtmlCropMarkDepth:=9.79865pt:1ex:=4.30554pt
+[143]
+
+:tex2html_wrap_inline1096:lthtmlCropMarkHeight:=20.5001pt
+
+:tex2html_wrap_inline1096:lthtmlCropMarkDepth:=9.67783pt:1ex:=4.30554pt
+[144]
+
+:tex2html_wrap_inline1099:lthtmlCropMarkHeight:=26.50017pt
+
+:tex2html_wrap_inline1099:lthtmlCropMarkDepth:=15.50017pt:1ex:=4.30554pt
+[145]
+
+:tex2html_wrap_inline1101:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline1101:lthtmlCropMarkDepth:=1.94443pt:1ex:=4.30554pt
+[146]
+
+:tex2html_wrap_inline1103:lthtmlCropMarkHeight:=21.01115pt
+
+:tex2html_wrap_inline1103:lthtmlCropMarkDepth:=9.79865pt:1ex:=4.30554pt
+[147]
+
+:tex2html_wrap_inline1108:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1108:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[148]
+
+:tex2html_wrap_inline1110:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline1110:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[149]
+
+:tex2html_wrap_inline1112:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1112:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[150]
+
+:tex2html_wrap_inline1114:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline1114:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[151]
+
+:tex2html_wrap_inline1117:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline1117:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[152]
+
+:tex2html_wrap_inline1121:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline1121:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[153]
+
+:tex2html_wrap_inline1123:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline1123:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[154] (./images.aux) ) 
+Here is how much of TeX's memory you used:
+ 2394 strings out of 477985
+ 34119 string characters out of 5840058
+ 1854388 words of memory out of 5000000
+ 22624 multiletter control sequences out of 15000+600000
+ 512741 words of font info for 34 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 56i,10n,62p,204b,122s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb>
+Output written on images.pdf (154 pages, 161821 bytes).
+PDF statistics:
+ 556 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

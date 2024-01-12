@@ -1,0 +1,205 @@
+\documentclass{article}
+\title{Ordinary Differential Equation Notes}
+\date{last updated 2024-01-12}
+\author{by 0x0015}
+\usepackage{amsmath}
+
+\begin{document}
+\maketitle
+
+\section{First Order}
+\paragraph{Definition:}
+A differential equation is an equation with an unknown function and it's derivative(s)
+\subparagraph{Example 1.0.1:}
+$D_xy=2x+y $
+\newline
+\indent\indent
+Solution: $ y= \int 2x+7dx = x^2+7x+C $
+\subparagraph{Example 1.0.2:}
+$D_xy+y=7 $
+\newline
+\indent\indent Solution here is a little more complicated
+
+\subsection{Linear First Order}
+\paragraph{Definition:}
+A linear first order differential equation is one such that it can be written $\frac{dy}{dx}+P(x)y=Q(x)$
+\subparagraph{Example 1.1.1:}
+$D_xy=y(1-y)=y-y^2$ (the logistic model)
+\newline
+\indent\indent
+Solution: $D_xy=\frac{dy}{dx}=y(1-y) \Leftrightarrow
+\frac{dy}{y(1-y)}=dx \Leftrightarrow
+\int \frac{dy}{y(1-y)}=\int dx \Leftrightarrow
+u=1-\frac{1}{y} \Rightarrow -\int \frac{1}{u}du = x+C \Leftrightarrow
+-\ln |u| = -\ln |1-\frac{1}{y}| = x+C \Leftrightarrow
+\ln |1-\frac{1}{y}| = -x+C \Leftrightarrow$
+Assuming $1-\frac{1}{y} \geq 0$, $1-\frac{1}{y}=e^{-x+C} \Leftrightarrow
+-1=e^{-x+C}y-y=y(e^{-x+C}-1) \Leftrightarrow
+y=\frac{-1}{e^{-x+C}-1} $
+\paragraph{Solving first order linear D.E.s}
+The simplest general method for solving first order linear D.E.s ($\frac{dy}{dx}+P(x)y=Q(x)$) is to add an additional function $\mu (x)$:
+\[
+\begin{aligned}
+	& D_xy+P(x)y=Q(x) \\
+	& \Leftrightarrow \mu (x)(D_xy+P(x)y)=D_x(\mu (x)y) \\
+	& \Leftrightarrow \mu (x) D_xy+ \mu (x) P(x)y=\mu (x)D_xy + D_x\mu (x)y \\
+	& \Leftrightarrow \mu (x)P(x) = D_x \mu (x)y \\
+	& P(x)=\frac{\mu _x (x)}{\mu (x)} = \frac{d \mu}{\mu} \Rightarrow
+	\int P(x)dx = \int \frac{d \mu}{\mu} = \ln \mu \Rightarrow
+	\mu (x)=e^{\int P(x)dx}
+\end{aligned}
+\]
+And then $\mu (x) $ can be plugged back in to find y.
+\paragraph{Theorem:}
+If P,Q are continuous on an open interval, $I$, containing $x_0$, then the initial value problem (IVP) $\frac{dy}{dx}+P(x)y=Q(x)$, $y(x_0)=y_0$ has a unique solution $y(x)$ on $I$ given by $y(x)=e^{-\int P(x)dx} \left(\displaystyle\int e^{\int P(x)dx}Q(x)dx + C \right)$ for an appropriate C
+\subsection{Substitution}
+If you have $\frac {dy}{dx} = f(x,y)$, substitute part of the e.q. with $v=\alpha (x,y)$, and then plug back into the e.q. at the end.
+\subparagraph{}
+Usually you want to get a linear D.E. relative to $v$ and $D_x v$ (for example $D_x v + P(x)v = Q(x)$ ) which is easier to solve.
+\subparagraph{Note 1:}
+sometimes a second order D.E. can be reduced into a first order by substituting $v=q(D_x y) \Rightarrow D_x v=w(D_x^2 y)$. (e.g. $x D_x^2 y + D_xy = Q(x)$ sub $v= D_x y \Rightarrow D_x v = D_x^2 y \Rightarrow x D_x v + v = Q(x)$ is 1st order)
+\subparagraph{Node 2:}
+you can substitute implicitly (e.g. $y D_x y + (D_x^2 y)^2=0$ sub $v=y D_x y \Rightarrow D_x v = (D_x y) ^2 + y D_x^2 y \Rightarrow D_x v = 0 \Rightarrow y D_x y = y \frac{dy}{dx}=v=c \Rightarrow \int ydy= \int cdx + C$)
+
+\subsubsection{Special cases of substitution}
+\paragraph{homogenious equation:}
+An equation of the type: $D_x y=F(\frac{y}{x})$ $\Rightarrow$ substitute $v=\frac{y}{x} \Rightarrow y=vx \Rightarrow D_x y=D_x(v)x+v$ which can be solved by $v`x+v=F(v) \Rightarrow \frac{D_x v}{F(v)-v} = \frac{1}{x}$
+\subparagraph{}
+In general $f(x,y)dy=g(x,y)dx$ substitute $y=ux \Rightarrow \frac{dx}{x} = h(u)du \Rightarrow$ integrate.
+\paragraph{Bernoulli euquation:}
+An equation of the type: $D_x y+P(x)y=Q(x)y^n$ $\Rightarrow$ substitute $v=y^{1-n} \Rightarrow D_x v=(1-n)y^{-n} D_xy \Rightarrow D_x v+(1-n)P(x)v=(1-n)Q(x)$
+\subparagraph{}
+Remember that n can be negative (for example $D_x y+P(x)y=Q(x)\frac{1}{y}$)
+
+\subsection{Exact equation}
+An equation $I(x,y)+J(x,y)D_x y=0 \Leftrightarrow I(x,y)dx+J(x,y)dy=0$ is exact iff $I_y=J_x$.  Then $\exists \psi (x,y)$ s.t.
+\[
+\begin{aligned}
+	& \psi _x (x,y)=I(x,y) \\
+	& \psi _y (x,y)=J(x,y) 
+\end{aligned}
+\]
+and $\psi (x,y)=c$ is a solution.
+\subparagraph{}
+For an IVP, given $f(a)=b$, plugin $x=a,y=b$ into $\psi$, and solve for $c$.
+\subsubsection{Autonomous equation}
+An autonomous DE is one such that the independent variable (e.g. $x$, $t$) is not in the eq. (e.g. $D_x y=P(y)$).
+\subparagraph{}
+An autonomous equation is always seperable
+
+\subsection{Seperable equation}
+A seperable equation is one of the form $D_x y = f(x)g(y)$.  A seperable equation can be solved as follows: $D_x y= \frac{dy}{dx} = f(x)g(y) \Rightarrow \int \frac{dy}{g(y)} = \int f(x)dx + C $.
+
+\section{Second Order}
+A second order differential equation is a differential equation that includes the second derivative.
+\subsection{Second Order Constant Coefficient Homogeneous}
+A second order constant coefficient homogeneous D.E. is one with the form $a D_x^2 y + b D_x y + cy=0$.
+\paragraph{Theorem (Super Position):}
+If a second order homogeneous D.E. has 2 solutions $a,b$, then $a+b$ is also a solution.
+\newline\newline
+To solve a second order linear constant coefficient homogeneous differential equation $a D_x^2 y + b D_x y + cy=0$ let $y=e^{rx}$.  Then by plugging in we get:
+\[
+\begin{aligned}
+	& a(r^2e^{rx}) + b(re^{rx}) + ce^{rx} = 0 \\
+	& \Leftrightarrow e^{rx}(ar^2 + br + c) = 0 \\
+	& \Leftrightarrow ar^2 + br + c=0
+\end{aligned}
+\]
+which can be solved for $r=r_1,r_2$ $\Rightarrow$ $y=Ae^{rx} + Be^{rx}$ $\forall A,B$ by super position.  If there is a repeated root ($r_1=r_2$), than let $y=Ae^{rx}+Bxe^{rx}$, plug in, and solve.
+
+
+\subsection{Second Order Non-Homogeneous}
+Let $D_x^2 y + p(x) D_x y + q(x)y = g(x)$ be the 2nd order non-homogeneous D.E.  For simplicity, let $L[y]= D_x^2 y + p(x) D_x y + q(x)y$ (so the D.E. is $L[y] = g(x)$ ).  Then the solution is of the form $y=(c_1 y_1 + c_2 y_2 = y_h) + y_p$ where $y_h$ is the solution to $L[y]=0$.  To find $y_p$ there is really two methods:
+
+\subsubsection{Undetermined Coefficients}
+Refer to the following table to find the general equation for $y_p$ based on $g(x)$:
+
+\begin{table}[h!]
+\begin{tabular}{|l|l|}
+	$g(x)$ & $y_p$ \\ \hline
+	$P_n(x)$ & $t^s Q_n(x)$ \\
+	$P_n(x) e^{\alpha x}$ & $t^s Q_n(x) e^{\alpha x}$ \\
+	$P_n(x) e^{\alpha x} (\sin \beta t + \cos \beta t)$ & $t^s e^{\alpha x} (Q_n(x) \sin \beta x + R_n(x) \cos \beta x) $ \\ \hline
+\end{tabular}
+\end{table}
+
+Where $s$ is the smallest integer $\ge 0$ s.t. $y_p$ is not a solution to $L[y] = 0$ and $P_n(x), Q_n(x), R_n(x)$ are polynomials of degree n.
+\newline\newline
+Then plug into $L[y_p]=g(t)$ and solve for the coefficients.
+
+\subsubsection{Variation of Parameters}
+Given $y_h=c_1 y_1 + c_2 y_2$ we wantto find $u_1, u_2$ s.t. $D_x(u_1)y_1 + D_x(u_2)y_2 = 0$ and $D_x(u_1)D_x(y_1)+ D_x(u_2)D_x(y_2)= g(x)$.  We can find precise values using the Wronskian.
+
+\paragraph{Definition:}
+The Wronskian of two functions $w(f,g)$ is defined as $w(f,g) := \begin{vmatrix} f & g \\ D_x f & D_x g \end{vmatrix}$
+\subparagraph{Lemma:}
+If $w(f,g) \equiv 0$ ($w(f,g)(x)=0, \forall x$), then $f,g$ are linearally dependent.  If $w(f,g) \not\equiv 0$ ($\exists x$ s.t. $w(f,g)(x) \neq 0$), then $f,g$ are linearally independent.
+
+\paragraph{}
+Then $D_x u_1 = \frac{-y_2 g}{w(y_1, y_2)}$ and $D_x u_2 = \frac{y_1 g}{w(y_1, y_2)}$.  This tells us that $y_p = u_1 y_1 + u_2 y_2$ (notice that $u_1, u_2$ are not derivatives).
+
+\paragraph{}
+Equivelently, this is:
+\[
+\begin{aligned}
+	y_p & = -y_1(x) \int_{x_0}^x \frac{y_2 (s) g(s)}{w(y_1, y_2)(s)} ds + y_2(x) \int_{x_0}^x \frac{y_1 (s) g(s)}{w(y_1, y_2)(s)} ds \\
+	    & = \int_{x_0}^x \frac{y_2(x)y_1(s)-y_1(x)y_2(s)}{w(y_1,y_2)(s)} g(s) ds = 0
+\end{aligned}
+\]
+Where $x_0$ is a convenient point int the interval $I$ in which $y_1, y_2$ are defined.
+
+\section{$N$th Order}
+A $n$th order differential equation is (as the name implies), a differential equation that includes derrivatives of $n$ orders.
+\subsection{$N$th Order Constant Coefficient Homogeneuous}
+A $n$th order constant coefficient homogeneous D.E. is one with the form $a_0 D_x^n y + a_1 D_x^{n-1} y + \cdots + a_{n-1} D_x y + a_n y=0$.
+
+\paragraph{}
+To solve, by following the same procedure as for the 2nd order parallel, let $y=e^{rx} \Rightarrow a_0r^n + a_1r^{n-1} + \cdots + a_{n-1}r + a_n = 0$, and solve.
+
+\section{Systems of Differential Equations}
+\subsection{First Order}
+\paragraph{Definition:}
+A system of first order differential equations is defined as such: $D_t x_i = \sum\limits_{j=1}^n (P_{ij} (t) x_j) + g_i (t)$ for $1 \le i \le n$ $\Leftrightarrow$ $D_t \vec{x} = \begin{bmatrix} P_{ij} (t) \end{bmatrix}_{ij} \vec{x} = \begin{bmatrix} g_1(t) \\ \vdots \\ g_n(t) \end{bmatrix} $
+
+\subparagraph{}
+A system of first order D.E.s is homogeneous if $g_i(t)=0, \forall t$.
+
+\paragraph{Theorem:}
+If $\{\vec{e_i}\}$ is a standard basis for $\Re ^n$, $\vec{x_i}$ is a solution to the homogeneous system with the initial condidtion $\vec{x_i} (t_0) = \vec{e_i}$ then $\{\vec{x_i}\}$ is the fundimental solution set.
+
+\subsubsection{Eigenvalue Method for Homogeneous Systems}
+For a homogeneous system, you have $D_x \vec{x}=A \vec{x} $.  If you can find the eigenvalues $\lambda_1, \cdots, \lambda_n$ and eigenvectors $\vec{v_1}, \cdots, \vec{v_n}$, then $\vec{x}= \sum\limits_{i=1}^n c_i e^{\lambda_i} \vec{v_i} $
+
+If there are repeated eigenvalues, solve for the known one like normal: (In this example I'm just showing for a system of two, but it extends) $\vec{x}=\vec{x_1} + \vec{x_2}$, $\vec{x_1}=c_1 \vec{v_1} e^{\lambda_1 t} $, let $\vec{x_2}=\vec{w} t e^t \Rightarrow D_t \vec{x_2} = \vec{w} (e^t + te^t)$.  Then plug back into initial D.E., and solve for $\vec{w}$.
+
+\subsubsection{Converting to and from systems}
+Given a second order, often you can convert to a system of first orders, or vice versa.  This is done by assigning the variables in the system to be different level derivatives.
+\paragraph{Example 4.1.2.1:}
+$a D_x^2 x + bx = 0 \Rightarrow$ let $x_1=x, x_2=D_x x \Rightarrow D_x x_2 = \frac{-b x_1}{a}, D_x x_1 = x_2$
+\paragraph{}
+You can also go from multiple of a higher order to lower orders:
+\paragraph{Example 4.1.2.2:}
+For two second orders we define $y_1=x_1,$ $y_2=D_x x_1,$ $y_3 = x_2,$ $y_4 = D_x x_2$
+
+\subsubsection{Matrix Exponents}
+Consider $D_t X = AX$ $\forall X \in M_{n \times n}(S)$.  If $\vec{x} = c_1 \vec{x_1} + c_2 \vec{x_2} + \cdots + c_n \vec{x_n}$ (means $\vec{x_i}=\vec{v_i}e^{\lambda_i t}$ most likely) is a solution to $D_t \vec{x} = A \vec{x}$, then there is a solution $X=\Phi(t)=\begin{bmatrix} \vec{x_1} & \vec{x_2} & \cdots & \vec{x_n} \end{bmatrix}$ where $\vec{x_i}$ are the columns of the matrix.  If there is an initial condition $\vec{x} (0) = \vec{x_0}$ then $\Phi(t) \vec{c} = \vec{x_0} \Leftrightarrow \vec{c} = \Phi ^ {-1} (t) \vec{x}$
+\paragraph{}
+Then to solve $D_t X = AX,$ $\vec{x}(0) = \vec{x_0}$, we have $\vec{x}(t) = \Phi (t) \Phi^{-1}(0) \vec{x_0}$
+\linebreak\linebreak
+To solve $D_t X = AX$, we really want $X=e^{At}$.  We know $e^x = \sum\limits_{n=0}^{\infty} \frac{x^n}{n!} \Rightarrow e^A = \sum\limits_{n=0}^{\infty} \frac{A^n}{n!} \Rightarrow e^{At} = \sum\limits_{n=0}^{\infty} \frac{A^n t^n}{n!}$
+\paragraph{Note 4.1.3.1:}
+If $AB=BA$, $e^{A+B}=e^A e^B; (e^A)^{-1} = e^{-A}; e^{0 \in M_{n \times n} (S)} = I$
+\linebreak\linebreak
+If $A=diag(a_1, a_2, \cdots, a_n)$ then $e^A=diag(e^{a_1}, e^{a_2}, \cdots, e^{a_n})$
+\linebreak
+If $A=SDS^{-1}$ for a diagonal $D$ then $e^A=S e^D S^{-1}$.
+\linebreak
+if $A$ is non-diagonalizable, then cehck if there is $n$ s.t. $A^n=0$.  If so, than a polynomial can be constructed from $e^A=\sum\limits_{i=0}^n \frac{A^i}{i!}$ $\left(=\sum\limits_{n=0}^{\infty} \frac{A^n}{n!}\right)$
+\paragraph{Example 4.1.3.2}
+For $A=\begin{bmatrix}0&1&2 \\ 0&0&3 \\ 0&0&0 \end{bmatrix}$, $A^2 \neq 0$, $A^3=0 \Rightarrow e^A=\sum\limits_{i=0}^2 \frac{A^i}{i!}=(A^0=I)+A+\frac{1}{2}A^2$
+\paragraph{Note 4.1.3.3:}
+If $AB=BA$, $C=A+B$ then $e^{Ct}=e^{At}e^{Bt}$.  Note that if $A=nI$, $AB=nIB=nB=Bn=BnI=BA$.
+\paragraph{}
+Thus the solution to $D_t \vec{x}=a \vec{x},$ $\vec{x}(0) = \vec{x_0}$ is $\vec{x}(t)=e^{At} \vec{x_0
+}$ $(=\Phi(t) \Phi ^{-1} (0) \vec{x_0} \Rightarrow e^{At} = \Phi(t) \Phi ^{-1} (0) \vec{x_0} )$
+\end{document}

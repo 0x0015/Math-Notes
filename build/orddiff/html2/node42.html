@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2023.2 (Released July 1, 2023) -->
+<HTML lang="en">
+<HEAD>
+<TITLE>Eigenvalue Method for Homogeneous Systems</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2023.2">
+
+<LINK REL="STYLESHEET" HREF="orddiff.css">
+
+<LINK REL="next" HREF="node43.html">
+<LINK REL="previous" HREF="node38.html">
+<LINK REL="next" HREF="node43.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="node43.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="node38.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="node41.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="node43.html">Converting to and from</A>
+<B> Up:</B> <A
+ HREF="node38.html">First Order</A>
+<B> Previous:</B> <A
+ HREF="node41.html">Theorem:</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H3><A ID="SECTION00041100000000000000">
+Eigenvalue Method for Homogeneous Systems</A>
+</H3>
+For a homogeneous system, you have <!-- MATH
+ $D_x \vec{x}=A \vec{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.23ex; vertical-align: -0.46ex; " SRC="img108.svg"
+ ALT="$D_x \vec{x}=A \vec{x} $"></SPAN>.  If you can find the eigenvalues <!-- MATH
+ $\lambda_1, \cdots, \lambda_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.29ex; vertical-align: -0.57ex; " SRC="img109.svg"
+ ALT="$\lambda_1, \cdots, \lambda_n$"></SPAN> and eigenvectors <!-- MATH
+ $\vec{v_1}, \cdots, \vec{v_n}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.34ex; vertical-align: -0.57ex; " SRC="img110.svg"
+ ALT="$\vec{v_1}, \cdots, \vec{v_n}$"></SPAN>, then <!-- MATH
+ $\vec{x}= \sum\limits_{i=1}^n c_i e^{\lambda_i} \vec{v_i}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 5.63ex; vertical-align: -2.39ex; " SRC="img111.svg"
+ ALT="$\vec{x}= \sum\limits_{i=1}^n c_i e^{\lambda_i} \vec{v_i} $"></SPAN>
+
+<P>
+If there are repeated eigenvalues, solve for the known one like normal: (In this example I'm just showing for a system of two, but it extends) <!-- MATH
+ $\vec{x}=\vec{x_1} + \vec{x_2}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.23ex; vertical-align: -0.46ex; " SRC="img112.svg"
+ ALT="$\vec{x}=\vec{x_1} + \vec{x_2}$"></SPAN>, <!-- MATH
+ $\vec{x_1}=c_1 \vec{v_1} e^{\lambda_1 t}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.54ex; vertical-align: -0.46ex; " SRC="img113.svg"
+ ALT="$\vec{x_1}=c_1 \vec{v_1} e^{\lambda_1 t} $"></SPAN>, let <!-- MATH
+ $\vec{x_2}=\vec{w} t e^t \Rightarrow D_t \vec{x_2} = \vec{w} (e^t + te^t)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ STYLE="height: 2.65ex; vertical-align: -0.70ex; " SRC="img114.svg"
+ ALT="$\vec{x_2}=\vec{w} t e^t \Rightarrow D_t \vec{x_2} = \vec{w} (e^t + te^t)$"></SPAN>.  Then plug back into initial D.E., and solve for <SPAN CLASS="MATH"><IMG
+ STYLE="height: 1.89ex; vertical-align: -0.12ex; " SRC="img115.svg"
+ ALT="$\vec{w}$"></SPAN>.
+
+<P>
+<BR><HR>
+
+</BODY>
+</HTML>

@@ -1,0 +1,1487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>Ordinary Differential Equation Notes</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)"> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)"> 
+<!-- html --> 
+<meta name="src" content="orddiff.tex"> 
+<link rel="stylesheet" type="text/css" href="orddiff.css"> 
+</head><body 
+>
+   <div class="maketitle">
+
+
+
+<h2 class="titleHead">Ordinary Differential Equation Notes</h2>
+<div class="author" ><span 
+class="cmr-12">by 0x0015</span></div><br />
+<div class="date" ><span 
+class="cmr-12">last updated 2024-01-12</span></div>
+   </div>
+   <h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>First Order</h3>
+<!--l. 11--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-2000"></a><span 
+class="cmbx-10">Definition:</span></span>
+   A differential equation is an equation with an unknown function and it&#8217;s
+derivative(s)
+<!--l. 13--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-3000"></a><span 
+class="cmbx-10">Example 1.0.1:</span></span> <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= 2<span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">y </span><br 
+class="newline" />      Solution: <span 
+class="cmmi-10">y </span>= <span 
+class="cmex-10">&#x222B;</span>
+  2<span 
+class="cmmi-10">x </span>+ 7<span 
+class="cmmi-10">dx </span>= <span 
+class="cmmi-10">x</span><sup><span 
+class="cmr-7">2</span></sup> + 7<span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">C</span>
+<!--l. 18--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-4000"></a><span 
+class="cmbx-10">Example 1.0.2:</span></span> <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">y </span>= 7 <br 
+class="newline" />      Solution here is a little more complicated
+<!--l. 23--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">1.1   </span> <a 
+ id="x1-50001.1"></a>Linear First Order</h4>
+<!--l. 24--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-6000"></a><span 
+class="cmbx-10">Definition:</span></span>
+   A linear first order differential equation is one such that it can be written
+<img 
+src="orddiff0x.png" alt=" dy
+dx"  class="frac" align="middle"> + <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>)
+<!--l. 26--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-7000"></a><span 
+class="cmbx-10">Example 1.1.1:</span></span> <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">y</span>(1 <span 
+class="cmsy-10">- </span><span 
+class="cmmi-10">y</span>) = <span 
+class="cmmi-10">y </span><span 
+class="cmsy-10">- </span><span 
+class="cmmi-10">y</span><sup><span 
+class="cmr-7">2</span></sup> (the logistic model) <br 
+class="newline" />      Solution: <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <img 
+src="orddiff1x.png" alt="ddyx"  class="frac" align="middle"> = <span 
+class="cmmi-10">y</span>(1 <span 
+class="cmsy-10">-</span><span 
+class="cmmi-10">y</span>) <span 
+class="cmsy-10">&#x21D4;</span><img 
+src="orddiff2x.png" alt="y(d1y-y)"  class="frac" align="middle"> = <span 
+class="cmmi-10">dx </span><span 
+class="cmsy-10">&#x21D4;</span><span 
+class="cmex-10">&#x222B;</span>
+  <img 
+src="orddiff3x.png" alt="yd(1y-y)"  class="frac" align="middle"> = <span 
+class="cmex-10">&#x222B;</span>
+  <span 
+class="cmmi-10">dx </span><span 
+class="cmsy-10">&#x21D4; </span><span 
+class="cmmi-10">u </span>= 1 <span 
+class="cmsy-10">-</span><img 
+src="orddiff4x.png" alt="1y"  class="frac" align="middle"> <span 
+class="cmsy-10">&#x21D2;</span>
+<span 
+class="cmsy-10">-</span><span 
+class="cmex-10">&#x222B;</span>
+ <img 
+src="orddiff5x.png" alt="1
+u"  class="frac" align="middle"><span 
+class="cmmi-10">du </span>= <span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">C </span><span 
+class="cmsy-10">&#x21D4;-</span>ln<span 
+class="cmsy-10">|</span><span 
+class="cmmi-10">u</span><span 
+class="cmsy-10">| </span>= <span 
+class="cmsy-10">-</span>ln<span 
+class="cmsy-10">|</span>1 <span 
+class="cmsy-10">-</span><img 
+src="orddiff6x.png" alt="1
+y"  class="frac" align="middle"><span 
+class="cmsy-10">| </span>= <span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">C </span><span 
+class="cmsy-10">&#x21D4;</span> ln<span 
+class="cmsy-10">|</span>1 <span 
+class="cmsy-10">-</span><img 
+src="orddiff7x.png" alt="1
+y"  class="frac" align="middle"><span 
+class="cmsy-10">| </span>= <span 
+class="cmsy-10">-</span><span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">C </span><span 
+class="cmsy-10">&#x21D4; </span>Assuming
+1 <span 
+class="cmsy-10">-</span><img 
+src="orddiff8x.png" alt="1
+y"  class="frac" align="middle"> <span 
+class="cmsy-10">&#x2265; </span>0, 1 <span 
+class="cmsy-10">-</span><img 
+src="orddiff9x.png" alt="1
+y"  class="frac" align="middle"> = <span 
+class="cmmi-10">e</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmmi-7">x</span><span 
+class="cmr-7">+</span><span 
+class="cmmi-7">C</span></sup> <span 
+class="cmsy-10">&#x21D4;-</span>1 = <span 
+class="cmmi-10">e</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmmi-7">x</span><span 
+class="cmr-7">+</span><span 
+class="cmmi-7">C</span></sup><span 
+class="cmmi-10">y </span><span 
+class="cmsy-10">- </span><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">y</span>(<span 
+class="cmmi-10">e</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmmi-7">x</span><span 
+class="cmr-7">+</span><span 
+class="cmmi-7">C</span></sup> <span 
+class="cmsy-10">- </span>1) <span 
+class="cmsy-10">&#x21D4; </span><span 
+class="cmmi-10">y </span>= <img 
+src="orddiff10x.png" alt="---1---
+e-x+C -1"  class="frac" align="middle">
+
+<!--l. 39--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-8000"></a><span 
+class="cmbx-10">Solving first order linear D.E.s</span></span>
+   The simplest general method for solving first order linear D.E.s (<img 
+src="orddiff11x.png" alt="dy
+dx"  class="frac" align="middle"> + <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>))
+is to add an additional function <span 
+class="cmmi-10">&#x03BC;</span>(<span 
+class="cmmi-10">x</span>):
+   <div class="math-display" >
+<img 
+src="orddiff12x.png" alt="Dxy + P(x)y = Q (x)
+&#x21D4;  &#x03BC;(x)(Dxy + P (x)y) = Dx(&#x03BC;(x)y)
+&#x21D4;  &#x03BC;(x)Dxy +&#x03BC; (x)P (x)y = &#x03BC;(x)Dxy + Dx &#x03BC;(x)y
+
+&#x21D4;  &#x03BC;(x)P(x) = Dx &#x03BC;(x)y&#x222B;         &#x222B;
+P(x) = &#x03BC;x(x)= d&#x03BC;-&#x21D2;    P(x)dx =   d&#x03BC;-= ln &#x03BC; &#x21D2; &#x03BC;(x) = e&#x222B; P (x)dx
+       &#x03BC;(x)    &#x03BC;                  &#x03BC;
+" class="math-display" ></div>
+<!--l. 52--><p class="indent" >   And then <span 
+class="cmmi-10">&#x03BC;</span>(<span 
+class="cmmi-10">x</span>) can be plugged back in to find y.
+<!--l. 53--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-9000"></a><span 
+class="cmbx-10">Theorem:</span></span>
+   If P,Q are continuous on an open interval, <span 
+class="cmmi-10">I</span>, containing <span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">0</span></sub>, then the initial value
+problem (IVP) <img 
+src="orddiff13x.png" alt="dy
+dx"  class="frac" align="middle"> + <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>), <span 
+class="cmmi-10">y</span>(<span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">0</span></sub>) = <span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">0</span></sub> has a unique solution <span 
+class="cmmi-10">y</span>(<span 
+class="cmmi-10">x</span>) on <span 
+class="cmmi-10">I</span>
+given by <span 
+class="cmmi-10">y</span>(<span 
+class="cmmi-10">x</span>) = <span 
+class="cmmi-10">e</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmex-7">&#x222B;</span>
+ <span 
+class="cmmi-7">P</span><span 
+class="cmr-7">(</span><span 
+class="cmmi-7">x</span><span 
+class="cmr-7">)</span><span 
+class="cmmi-7">dx</span></sup><img 
+src="orddiff14x.png" alt="( &#x222B;  &#x222B;               )
+    e P(x)dxQ(x)dx +C"  class="left" align="middle"> for an appropriate
+C
+   <h4 class="subsectionHead"><span class="titlemark">1.2   </span> <a 
+ id="x1-100001.2"></a>Substitution</h4>
+<!--l. 56--><p class="noindent" >If you have <img 
+src="orddiff15x.png" alt="dy
+dx"  class="frac" align="middle"> = <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">x,y</span>), substitute part of the e.q. with <span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">&#x03B1;</span>(<span 
+class="cmmi-10">x,y</span>), and then plug
+back into the e.q. at the end.
+<!--l. 57--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-11000"></a></span> Usually you want to get a linear D.E. relative to <span 
+class="cmmi-10">v </span>and <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>(for example
+<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>+ <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>) ) which is easier to solve.
+<!--l. 59--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-12000"></a><span 
+class="cmbx-10">Note 1:</span></span> sometimes a second order D.E. can be reduced into a first order by
+substituting <span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">q</span>(<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y</span>) <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">w</span>(<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y</span>). (e.g. <span 
+class="cmmi-10">xD</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>) sub
+<span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span><span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y </span><span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">xD</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>+ <span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>) is 1st order)
+<!--l. 61--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-13000"></a><span 
+class="cmbx-10">Node 2:</span></span> you can substitute implicitly (e.g. <span 
+class="cmmi-10">yD</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ (<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y</span>)<sup><span 
+class="cmr-7">2</span></sup> = 0 sub
+<span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">yD</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span><span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>= (<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y</span>)<sup><span 
+class="cmr-7">2</span></sup>+<span 
+class="cmmi-10">yD</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y </span><span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>= 0 <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">yD</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">y</span><img 
+src="orddiff16x.png" alt="ddyx"  class="frac" align="middle"> = <span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">c </span><span 
+class="cmsy-10">&#x21D2;</span><span 
+class="cmex-10">&#x222B;</span>
+  <span 
+class="cmmi-10">ydy </span>= <span 
+class="cmex-10">&#x222B;</span>
+  <span 
+class="cmmi-10">cdx</span>+<span 
+class="cmmi-10">C</span>)
+
+<!--l. 64--><p class="noindent" >
+   <h5 class="subsubsectionHead"><span class="titlemark">1.2.1   </span> <a 
+ id="x1-140001.2.1"></a>Special cases of substitution</h5>
+<!--l. 65--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-15000"></a><span 
+class="cmbx-10">homogenious equation:</span></span>
+   An equation of the type: <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">F</span>(<img 
+src="orddiff17x.png" alt="y
+x"  class="frac" align="middle">) <span 
+class="cmsy-10">&#x21D2; </span>substitute <span 
+class="cmmi-10">v </span>= <img 
+src="orddiff18x.png" alt="y
+x"  class="frac" align="middle"> <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">vx </span><span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub>(<span 
+class="cmmi-10">v</span>)<span 
+class="cmmi-10">x</span>+<span 
+class="cmmi-10">v</span>
+which can be solved by <span 
+class="cmmi-10">v</span>&#8216;<span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">F</span>(<span 
+class="cmmi-10">v</span>) <span 
+class="cmsy-10">&#x21D2;</span><img 
+src="orddiff19x.png" alt="-Dxv--
+F(v)-v"  class="frac" align="middle"> = <img 
+src="orddiff20x.png" alt="1
+x"  class="frac" align="middle">
+<!--l. 67--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-16000"></a></span> In general <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">x,y</span>)<span 
+class="cmmi-10">dy </span>= <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">x,y</span>)<span 
+class="cmmi-10">dx </span>substitute <span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">ux </span><span 
+class="cmsy-10">&#x21D2;</span><img 
+src="orddiff21x.png" alt="dxx"  class="frac" align="middle"> = <span 
+class="cmmi-10">h</span>(<span 
+class="cmmi-10">u</span>)<span 
+class="cmmi-10">du </span><span 
+class="cmsy-10">&#x21D2;</span>
+integrate.
+<!--l. 69--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-17000"></a><span 
+class="cmbx-10">Bernoulli euquation:</span></span>
+   An equation of the type: <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y</span><sup><span 
+class="cmmi-7">n</span></sup> <span 
+class="cmsy-10">&#x21D2; </span>substitute
+<span 
+class="cmmi-10">v </span>= <span 
+class="cmmi-10">y</span><sup><span 
+class="cmr-7">1</span><span 
+class="cmsy-7">-</span><span 
+class="cmmi-7">n</span></sup> <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>= (1 <span 
+class="cmsy-10">- </span><span 
+class="cmmi-10">n</span>)<span 
+class="cmmi-10">y</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmmi-7">n</span></sup><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span><span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">v </span>+ (1 <span 
+class="cmsy-10">- </span><span 
+class="cmmi-10">n</span>)<span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">v </span>= (1 <span 
+class="cmsy-10">- </span><span 
+class="cmmi-10">n</span>)<span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>)
+<!--l. 71--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-18000"></a></span> Remember that n can be negative (for example <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Q</span>(<span 
+class="cmmi-10">x</span>)<img 
+src="orddiff22x.png" alt="1
+y"  class="frac" align="middle">)
+<!--l. 74--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">1.3   </span> <a 
+ id="x1-190001.3"></a>Exact equation</h4>
+<!--l. 75--><p class="noindent" >An equation <span 
+class="cmmi-10">I</span>(<span 
+class="cmmi-10">x,y</span>) + <span 
+class="cmmi-10">J</span>(<span 
+class="cmmi-10">x,y</span>)<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= 0 <span 
+class="cmsy-10">&#x21D4; </span><span 
+class="cmmi-10">I</span>(<span 
+class="cmmi-10">x,y</span>)<span 
+class="cmmi-10">dx </span>+ <span 
+class="cmmi-10">J</span>(<span 
+class="cmmi-10">x,y</span>)<span 
+class="cmmi-10">dy </span>= 0 is exact iff
+<span 
+class="cmmi-10">I</span><sub><span 
+class="cmmi-7">y</span></sub> = <span 
+class="cmmi-10">J</span><sub><span 
+class="cmmi-7">x</span></sub>. Then <span 
+class="cmsy-10">&#x2203;</span><span 
+class="cmmi-10">&#x03C8;</span>(<span 
+class="cmmi-10">x,y</span>) s.t.
+   <div class="math-display" >
+<img 
+src="orddiff23x.png" alt="&#x03C8; (x,y) = I(x,y)
+ x
+&#x03C8;y(x,y) = J (x,y)
+" class="math-display" ></div>
+<!--l. 82--><p class="indent" >   and <span 
+class="cmmi-10">&#x03C8;</span>(<span 
+class="cmmi-10">x,y</span>) = <span 
+class="cmmi-10">c </span>is a solution.
+<!--l. 83--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-20000"></a></span> For an IVP, given <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">a</span>) = <span 
+class="cmmi-10">b</span>, plugin <span 
+class="cmmi-10">x </span>= <span 
+class="cmmi-10">a,y </span>= <span 
+class="cmmi-10">b </span>into <span 
+class="cmmi-10">&#x03C8;</span>, and solve for
+<span 
+class="cmmi-10">c</span>.
+   <h5 class="subsubsectionHead"><span class="titlemark">1.3.1   </span> <a 
+ id="x1-210001.3.1"></a>Autonomous equation</h5>
+<!--l. 86--><p class="noindent" >An autonomous DE is one such that the independent variable (e.g. <span 
+class="cmmi-10">x</span>, <span 
+class="cmmi-10">t</span>) is not in the
+eq. (e.g. <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">P</span>(<span 
+class="cmmi-10">y</span>)).
+
+<!--l. 87--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-22000"></a></span> An autonomous equation is always seperable
+<!--l. 90--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">1.4   </span> <a 
+ id="x1-230001.4"></a>Seperable equation</h4>
+<!--l. 91--><p class="noindent" >A seperable equation is one of the form <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">y</span>). A seperable equation can be
+solved as follows: <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>= <img 
+src="orddiff24x.png" alt="dy
+dx"  class="frac" align="middle"> = <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">y</span>) <span 
+class="cmsy-10">&#x21D2;</span><span 
+class="cmex-10">&#x222B;</span>
+  <img 
+src="orddiff25x.png" alt="dy-
+g(y)"  class="frac" align="middle"> = <span 
+class="cmex-10">&#x222B;</span>
+  <span 
+class="cmmi-10">f</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">dx </span>+ <span 
+class="cmmi-10">C</span>.
+<!--l. 93--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">2   </span> <a 
+ id="x1-240002"></a>Second Order</h3>
+<!--l. 94--><p class="noindent" >A second order differential equation is a differential equation that includes the second
+derivative.
+   <h4 class="subsectionHead"><span class="titlemark">2.1   </span> <a 
+ id="x1-250002.1"></a>Second Order Constant Coefficient Homogeneous</h4>
+<!--l. 96--><p class="noindent" >A second order constant coefficient homogeneous D.E. is one with the form
+<span 
+class="cmmi-10">aD</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">bD</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">cy </span>= 0.
+<!--l. 97--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-26000"></a><span 
+class="cmbx-10">Theorem (Super Position):</span></span>
+   If a second order homogeneous D.E. has 2 solutions <span 
+class="cmmi-10">a,b</span>, then <span 
+class="cmmi-10">a </span>+ <span 
+class="cmmi-10">b </span>is also a
+solution. <br 
+class="newline" /><br 
+class="newline" />To solve a second order linear constant coefficient homogeneous differential equation
+<span 
+class="cmmi-10">aD</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">bD</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">cy </span>= 0 let <span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">rx</span></sup>. Then by plugging in we get:
+   <div class="math-display" >
+<img 
+src="orddiff26x.png" alt="  2 rx      rx     rx
+a(r e  )+ b(re  )+ ce  = 0
+&#x21D4; erx(ar2 + br+ c) = 0
+&#x21D4; ar2 + br + c = 0
+" class="math-display" ></div>
+<!--l. 108--><p class="indent" >   which can be solved for <span 
+class="cmmi-10">r </span>= <span 
+class="cmmi-10">r</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">,r</span><sub><span 
+class="cmr-7">2</span></sub> <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Ae</span><sup><span 
+class="cmmi-7">rx</span></sup> + <span 
+class="cmmi-10">Be</span><sup><span 
+class="cmmi-7">rx</span></sup> <span 
+class="cmsy-10">&#x2200;</span><span 
+class="cmmi-10">A,B </span>by super position. If
+there is a repeated root (<span 
+class="cmmi-10">r</span><sub><span 
+class="cmr-7">1</span></sub> = <span 
+class="cmmi-10">r</span><sub><span 
+class="cmr-7">2</span></sub>), than let <span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">Ae</span><sup><span 
+class="cmmi-7">rx</span></sup> + <span 
+class="cmmi-10">Bxe</span><sup><span 
+class="cmmi-7">rx</span></sup>, plug in, and
+solve.
+
+<!--l. 111--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">2.2   </span> <a 
+ id="x1-270002.2"></a>Second Order Non-Homogeneous</h4>
+<!--l. 112--><p class="noindent" >Let <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">p</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">q</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">x</span>) be the 2nd order non-homogeneous D.E. For
+simplicity, let <span 
+class="cmmi-10">L</span>[<span 
+class="cmmi-10">y</span>] = <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">p</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">q</span>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">y </span>(so the D.E. is <span 
+class="cmmi-10">L</span>[<span 
+class="cmmi-10">y</span>] = <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">x</span>) ). Then the
+solution is of the form <span 
+class="cmmi-10">y </span>= (<span 
+class="cmmi-10">c</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">1</span></sub> + <span 
+class="cmmi-10">c</span><sub><span 
+class="cmr-7">2</span></sub><span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">2</span></sub> = <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">h</span></sub>) + <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">p</span></sub> where <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">h</span></sub> is the solution to
+<span 
+class="cmmi-10">L</span>[<span 
+class="cmmi-10">y</span>] = 0. To find <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">p</span></sub> there is really two methods:
+<!--l. 114--><p class="noindent" >
+   <h5 class="subsubsectionHead"><span class="titlemark">2.2.1   </span> <a 
+ id="x1-280002.2.1"></a>Undetermined Coefficients</h5>
+<!--l. 115--><p class="noindent" >Refer to the following table to find the general equation for <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">p</span></sub> based on
+<span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">x</span>):
+   <div class="table">
+
+<!--l. 117--><p class="indent" >   <hr class="float"><div class="float" 
+>
+
+<div class="tabular"> <table id="TBL-2" class="tabular" 
+ 
+><colgroup id="TBL-2-1g"><col 
+id="TBL-2-1"></colgroup><colgroup id="TBL-2-2g"><col 
+id="TBL-2-2"></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-2-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-1"  
+class="td11"><span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">x</span>)                          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-2"  
+class="td11"><span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">p</span></sub>                                            </td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-1"  
+class="td11"><span 
+class="cmmi-10">P</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)                         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-2"  
+class="td11"><span 
+class="cmmi-10">t</span><sup><span 
+class="cmmi-7">s</span></sup><span 
+class="cmmi-10">Q</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)                                   </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-1"  
+class="td11"><span 
+class="cmmi-10">P</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">&#x03B1;x</span></sup>                     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-2"  
+class="td11"><span 
+class="cmmi-10">t</span><sup><span 
+class="cmmi-7">s</span></sup><span 
+class="cmmi-10">Q</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">&#x03B1;x</span></sup>                                </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-1"  
+class="td11"><span 
+class="cmmi-10">P</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">&#x03B1;x</span></sup>(sin<span 
+class="cmmi-10">&#x03B2;t </span>+ cos<span 
+class="cmmi-10">&#x03B2;t</span>)</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-2"  
+class="td11"><span 
+class="cmmi-10">t</span><sup><span 
+class="cmmi-7">s</span></sup><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">&#x03B1;x</span></sup>(<span 
+class="cmmi-10">Q</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)sin<span 
+class="cmmi-10">&#x03B2;x </span>+ <span 
+class="cmmi-10">R</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)cos<span 
+class="cmmi-10">&#x03B2;x</span>)</td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-1"  
+class="td11">                     </td></tr></table>                                           </div>
+
+   </div><hr class="endfloat" />
+   </div>
+<!--l. 126--><p class="indent" >   Where <span 
+class="cmmi-10">s </span>is the smallest integer <span 
+class="cmsy-10">&#x2265; </span>0 s.t. <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">p</span></sub> is not a solution to <span 
+class="cmmi-10">L</span>[<span 
+class="cmmi-10">y</span>] = 0 and
+<span 
+class="cmmi-10">P</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">,Q</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">,R</span><sub><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">x</span>) are polynomials of degree n. <br 
+class="newline" /><br 
+class="newline" />Then plug into <span 
+class="cmmi-10">L</span>[<span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">p</span></sub>] = <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">t</span>) and solve for the coefficients.
+   <h5 class="subsubsectionHead"><span class="titlemark">2.2.2   </span> <a 
+ id="x1-290002.2.2"></a>Variation of Parameters</h5>
+<!--l. 131--><p class="noindent" >Given <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">h</span></sub> = <span 
+class="cmmi-10">c</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">1</span></sub> + <span 
+class="cmmi-10">c</span><sub><span 
+class="cmr-7">2</span></sub><span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">2</span></sub> we wantto find <span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">,u</span><sub><span 
+class="cmr-7">2</span></sub> s.t. <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub>(<span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">1</span></sub>)<span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">1</span></sub> + <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub>(<span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">2</span></sub>)<span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">2</span></sub> = 0 and
+<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub>(<span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">1</span></sub>)<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub>(<span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">1</span></sub>) + <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub>(<span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">2</span></sub>)<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub>(<span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">2</span></sub>) = <span 
+class="cmmi-10">g</span>(<span 
+class="cmmi-10">x</span>). We can find precise values using the
+Wronskian.
+<!--l. 133--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-30000"></a><span 
+class="cmbx-10">Definition:</span></span>
+   The Wronskian of two functions <span 
+class="cmmi-10">w</span>(<span 
+class="cmmi-10">f,g</span>) is defined as <span 
+class="cmmi-10">w</span>(<span 
+class="cmmi-10">f,g</span>) := <img 
+src="orddiff27x.png" alt="|| f    g ||
+||Dxf   Dxg||"  class="left" align="middle">
+<!--l. 135--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-31000"></a><span 
+class="cmbx-10">Lemma:</span></span> If <span 
+class="cmmi-10">w</span>(<span 
+class="cmmi-10">f,g</span>) <span 
+class="cmsy-10">&#x2261; </span>0 (<span 
+class="cmmi-10">w</span>(<span 
+class="cmmi-10">f,g</span>)(<span 
+class="cmmi-10">x</span>) = 0<span 
+class="cmmi-10">,</span><span 
+class="cmsy-10">&#x2200;</span><span 
+class="cmmi-10">x</span>), then <span 
+class="cmmi-10">f,g </span>are linearally dependent. If
+<span 
+class="cmmi-10">w</span>(<span 
+class="cmmi-10">f,g</span>) <span 
+class="cmsy-10">&#x2044;&#x2261; </span>0 (<span 
+class="cmsy-10">&#x2203;</span><span 
+class="cmmi-10">x </span>s.t. <span 
+class="cmmi-10">w</span>(<span 
+class="cmmi-10">f,g</span>)(<span 
+class="cmmi-10">x</span>)<span 
+class="cmmi-10">&#x2260;</span>0), then <span 
+class="cmmi-10">f,g </span>are linearally independent.
+<!--l. 138--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-32000"></a></span>
+   Then <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">1</span></sub> = <img 
+src="orddiff28x.png" alt="---y2g-
+w(y1,y2)"  class="frac" align="middle"> and <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">2</span></sub> = <img 
+src="orddiff29x.png" alt="--y1g--
+w(y1,y2)"  class="frac" align="middle">. This tells us that <span 
+class="cmmi-10">y</span><sub><span 
+class="cmmi-7">p</span></sub> = <span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">1</span></sub> + <span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">2</span></sub><span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">2</span></sub>
+(notice that <span 
+class="cmmi-10">u</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">,u</span><sub><span 
+class="cmr-7">2</span></sub> are not derivatives).
+<!--l. 141--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-33000"></a></span>
+   Equivelently, this is:
+   <div class="math-display" >
+<img 
+src="orddiff30x.png" alt="          &#x222B; x                   &#x222B; x
+yp = - y1(x)  -y2(s)g(s)--ds + y2(x)    -y1(s)g(s)-ds
+           x0 w(y1,y2)(s)         x0 w(y1,y2)(s)
+    &#x222B; xy2(x)y1(s)--y1(x)y2(s)
+  =  x0     w (y1,y2)(s)     g(s)ds = 0
+" class="math-display" ></div>
+<!--l. 149--><p class="indent" >   Where <span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">0</span></sub> is a convenient point int the interval <span 
+class="cmmi-10">I </span>in which <span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">,y</span><sub><span 
+class="cmr-7">2</span></sub> are
+defined.
+
+<!--l. 151--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">3   </span> <a 
+ id="x1-340003"></a><span 
+class="cmmi-10">N</span>th Order</h3>
+<!--l. 152--><p class="noindent" >A <span 
+class="cmmi-10">n</span>th order differential equation is (as the name implies), a differential equation that
+includes derrivatives of <span 
+class="cmmi-10">n </span>orders.
+   <h4 class="subsectionHead"><span class="titlemark">3.1   </span> <a 
+ id="x1-350003.1"></a><span 
+class="cmmi-10">N</span>th Order Constant Coefficient Homogeneuous</h4>
+<!--l. 154--><p class="noindent" >A <span 
+class="cmmi-10">n</span>th order constant coefficient homogeneous D.E. is one with the form
+<span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">0</span></sub><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmmi-7">n</span></sup><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup><span 
+class="cmmi-10">y </span>+ <img 
+src="orddiff31x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">a</span><sub><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">y </span>+ <span 
+class="cmmi-10">a</span><sub><span 
+class="cmmi-7">n</span></sub><span 
+class="cmmi-10">y </span>= 0.
+<!--l. 156--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-36000"></a></span>
+   To solve, by following the same procedure as for the 2nd order parallel, let
+<span 
+class="cmmi-10">y </span>= <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">rx</span></sup> <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">0</span></sub><span 
+class="cmmi-10">r</span><sup><span 
+class="cmmi-7">n</span></sup> + <span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">r</span><sup><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup> + <img 
+src="orddiff32x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">a</span><sub><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">r </span>+ <span 
+class="cmmi-10">a</span><sub><span 
+class="cmmi-7">n</span></sub> = 0, and solve.
+<!--l. 159--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">4   </span> <a 
+ id="x1-370004"></a>Systems of Differential Equations</h3>
+<!--l. 160--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">4.1   </span> <a 
+ id="x1-380004.1"></a>First Order</h4>
+<!--l. 161--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-39000"></a><span 
+class="cmbx-10">Definition:</span></span>
+   A system of first order differential equations is defined as such:
+<span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><span 
+class="cmmi-10">x</span><sub><span 
+class="cmmi-7">i</span></sub> = <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">j</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmmi-7">n</span></sup>(<span 
+class="cmmi-10">P</span><sub><span 
+class="cmmi-7">ij</span></sub>(<span 
+class="cmmi-10">t</span>)<span 
+class="cmmi-10">x</span><sub><span 
+class="cmmi-7">j</span></sub>) + <span 
+class="cmmi-10">g</span><sub><span 
+class="cmmi-7">i</span></sub>(<span 
+class="cmmi-10">t</span>) for 1 <span 
+class="cmsy-10">&#x2264; </span><span 
+class="cmmi-10">i </span><span 
+class="cmsy-10">&#x2264; </span><span 
+class="cmmi-10">n </span><span 
+class="cmsy-10">&#x21D4; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><img 
+src="orddiff33x.png" alt="&#x20D7;x"  class="vec" > = <img 
+src="orddiff34x.png" alt="[     ]
+ Pij(t)"  class="left" align="middle"><sub><span 
+class="cmmi-7">ij</span></sub><img 
+src="orddiff35x.png" alt="&#x20D7;x"  class="vec" > = <img 
+src="orddiff36x.png" alt="&#x230A;    &#x230B;
+ g1(t)
+|&#x2308;  ... |&#x2309;
+ gn(t)"  class="left" align="middle">
+<!--l. 164--><p class="indent" >   <span class="subparagraphHead"><a 
+ id="x1-40000"></a></span> A system of first order D.E.s is homogeneous if <span 
+class="cmmi-10">g</span><sub><span 
+class="cmmi-7">i</span></sub>(<span 
+class="cmmi-10">t</span>) = 0<span 
+class="cmmi-10">,</span><span 
+class="cmsy-10">&#x2200;</span><span 
+class="cmmi-10">t</span>.
+<!--l. 167--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-41000"></a><span 
+class="cmbx-10">Theorem:</span></span>
+   If <span 
+class="cmsy-10">{</span><img 
+src="orddiff37x.png" alt="&#x20D7;ei"  class="vec" ><span 
+class="cmsy-10">} </span>is a standard basis for <span 
+class="cmsy-10">&#x211C;</span><sup><span 
+class="cmmi-7">n</span></sup>, <img 
+src="orddiff38x.png" alt="&#x20D7;xi"  class="vec" > is a solution to the homogeneous system
+with the initial condidtion <img 
+src="orddiff39x.png" alt="&#x20D7;xi"  class="vec" >(<span 
+class="cmmi-10">t</span><sub><span 
+class="cmr-7">0</span></sub>) = <img 
+src="orddiff40x.png" alt="&#x20D7;ei"  class="vec" > then <span 
+class="cmsy-10">{</span><img 
+src="orddiff41x.png" alt="&#x20D7;xi"  class="vec" ><span 
+class="cmsy-10">} </span>is the fundimental solution
+set.
+
+<!--l. 170--><p class="noindent" >
+   <h5 class="subsubsectionHead"><span class="titlemark">4.1.1   </span> <a 
+ id="x1-420004.1.1"></a>Eigenvalue Method for Homogeneous Systems</h5>
+<!--l. 171--><p class="noindent" >For a homogeneous system, you have <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><img 
+src="orddiff42x.png" alt="&#x20D7;x"  class="vec" > = <span 
+class="cmmi-10">A</span><img 
+src="orddiff43x.png" alt="&#x20D7;x"  class="vec" >. If you can find the eigenvalues
+<span 
+class="cmmi-10">&#x03BB;</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">,</span><img 
+src="orddiff44x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" ><span 
+class="cmmi-10">,&#x03BB;</span><sub><span 
+class="cmmi-7">n</span></sub> and eigenvectors <img 
+src="orddiff45x.png" alt="&#x20D7;v1"  class="vec" ><span 
+class="cmmi-10">,</span><img 
+src="orddiff46x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" ><span 
+class="cmmi-10">,</span><img 
+src="orddiff47x.png" alt="v&#x20D7;n"  class="vec" >, then <img 
+src="orddiff48x.png" alt="&#x20D7;x"  class="vec" > = <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">i</span><span 
+class="cmr-7">=1</span></sub><sup><span 
+class="cmmi-7">n</span></sup><span 
+class="cmmi-10">c</span><sub><span 
+class="cmmi-7">i</span></sub><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">&#x03BB;</span><sub><span 
+class="cmmi-5">i</span></sub></sup><img 
+src="orddiff49x.png" alt="&#x20D7;vi"  class="vec" >
+<!--l. 173--><p class="indent" >   If there are repeated eigenvalues, solve for the known one like normal: (In this
+example I&#8217;m just showing for a system of two, but it extends) <img 
+src="orddiff50x.png" alt="&#x20D7;x"  class="vec" > = <img 
+src="orddiff51x.png" alt="x&#x20D7;1"  class="vec" > + <img 
+src="orddiff52x.png" alt="&#x20D7;x2"  class="vec" >,
+<img 
+src="orddiff53x.png" alt="x&#x20D7;1"  class="vec" > = <span 
+class="cmmi-10">c</span><sub><span 
+class="cmr-7">1</span></sub><img 
+src="orddiff54x.png" alt="v&#x20D7;1"  class="vec" ><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">&#x03BB;</span><sub><span 
+class="cmr-5">1</span></sub><span 
+class="cmmi-7">t</span></sup>, let <img 
+src="orddiff55x.png" alt="x&#x20D7;2"  class="vec" > = <img 
+src="orddiff56x.png" alt="&#x20D7;w"  class="vec" ><span 
+class="cmmi-10">te</span><sup><span 
+class="cmmi-7">t</span></sup> <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><img 
+src="orddiff57x.png" alt="&#x20D7;x2"  class="vec" > = <img 
+src="orddiff58x.png" alt="&#x20D7;w"  class="vec" >(<span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">t</span></sup> + <span 
+class="cmmi-10">te</span><sup><span 
+class="cmmi-7">t</span></sup>). Then plug back into initial D.E.,
+and solve for <img 
+src="orddiff59x.png" alt="&#x20D7;w"  class="vec" >.
+<!--l. 175--><p class="noindent" >
+   <h5 class="subsubsectionHead"><span class="titlemark">4.1.2   </span> <a 
+ id="x1-430004.1.2"></a>Converting to and from systems</h5>
+<!--l. 176--><p class="noindent" >Given a second order, often you can convert to a system of first orders, or vice versa.
+This is done by assigning the variables in the system to be different level
+derivatives.
+<!--l. 177--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-44000"></a><span 
+class="cmbx-10">Example 4.1.2.1:</span></span>
+   <span 
+class="cmmi-10">aD</span><sub><span 
+class="cmmi-7">x</span></sub><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">x </span>+ <span 
+class="cmmi-10">bx </span>= 0 <span 
+class="cmsy-10">&#x21D2; </span>let <span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">1</span></sub> = <span 
+class="cmmi-10">x,x</span><sub><span 
+class="cmr-7">2</span></sub> = <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">x </span><span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">2</span></sub> = <img 
+src="orddiff60x.png" alt="-bx1
+ a"  class="frac" align="middle"><span 
+class="cmmi-10">,D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">1</span></sub> = <span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">2</span></sub>
+<!--l. 179--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-45000"></a></span>
+   You can also go from multiple of a higher order to lower orders:
+<!--l. 181--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-46000"></a><span 
+class="cmbx-10">Example 4.1.2.2:</span></span>
+   For two second orders we define <span 
+class="cmmi-10">y</span><sub><span 
+class="cmr-7">1</span></sub> = <span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">, y</span><sub><span 
+class="cmr-7">2</span></sub> = <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">, y</span><sub><span 
+class="cmr-7">3</span></sub> = <span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">2</span></sub><span 
+class="cmmi-10">, y</span><sub><span 
+class="cmr-7">4</span></sub> = <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">x</span></sub><span 
+class="cmmi-10">x</span><sub><span 
+class="cmr-7">2</span></sub>
+<!--l. 184--><p class="noindent" >
+   <h5 class="subsubsectionHead"><span class="titlemark">4.1.3   </span> <a 
+ id="x1-470004.1.3"></a>Matrix Exponents</h5>
+<!--l. 185--><p class="noindent" >Consider <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><span 
+class="cmmi-10">X </span>= <span 
+class="cmmi-10">AX </span><span 
+class="cmsy-10">&#x2200;</span><span 
+class="cmmi-10">X </span><span 
+class="cmsy-10">&#x2208; </span><span 
+class="cmmi-10">M</span><sub><span 
+class="cmmi-7">n</span><span 
+class="cmsy-7">&#x00D7;</span><span 
+class="cmmi-7">n</span></sub>(<span 
+class="cmmi-10">S</span>). If <img 
+src="orddiff61x.png" alt="&#x20D7;x"  class="vec" > = <span 
+class="cmmi-10">c</span><sub><span 
+class="cmr-7">1</span></sub><img 
+src="orddiff62x.png" alt="&#x20D7;x1"  class="vec" > + <span 
+class="cmmi-10">c</span><sub><span 
+class="cmr-7">2</span></sub><img 
+src="orddiff63x.png" alt="&#x20D7;x2"  class="vec" > + <img 
+src="orddiff64x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" > + <span 
+class="cmmi-10">c</span><sub><span 
+class="cmmi-7">n</span></sub><img 
+src="orddiff65x.png" alt="&#x20D7;xn"  class="vec" > (means
+<img 
+src="orddiff66x.png" alt="&#x20D7;xi"  class="vec" > = <img 
+src="orddiff67x.png" alt="&#x20D7;vi"  class="vec" ><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">&#x03BB;</span><sub><span 
+class="cmmi-5">i</span></sub><span 
+class="cmmi-7">t</span></sup> most likely) is a solution to <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><img 
+src="orddiff68x.png" alt="&#x20D7;x"  class="vec" > = <span 
+class="cmmi-10">A</span><img 
+src="orddiff69x.png" alt="&#x20D7;x"  class="vec" >, then there is a solution
+<span 
+class="cmmi-10">X </span>= &#x03A6;(<span 
+class="cmmi-10">t</span>) = <img 
+src="orddiff70x.png" alt="[              ]
+ &#x20D7;x1  &#x20D7;x2 &#x22C5;&#x22C5;&#x22C5;  &#x20D7;xn"  class="left" align="middle"> where <img 
+src="orddiff71x.png" alt="&#x20D7;xi"  class="vec" > are the columns of the matrix. If there is
+an initial condition <img 
+src="orddiff72x.png" alt="&#x20D7;x"  class="vec" >(0) = <img 
+src="orddiff73x.png" alt="&#x20D7;x0"  class="vec" > then &#x03A6;(<span 
+class="cmmi-10">t</span>)<img 
+src="orddiff74x.png" alt="&#x20D7;c"  class="vec" > = <img 
+src="orddiff75x.png" alt="&#x20D7;x0"  class="vec" > <span 
+class="cmsy-10">&#x21D4;</span><img 
+src="orddiff76x.png" alt="&#x20D7;c"  class="vec" > = &#x03A6;<sup><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup>(<span 
+class="cmmi-10">t</span>)<img 
+src="orddiff77x.png" alt="&#x20D7;x"  class="vec" >
+<!--l. 186--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-48000"></a></span>
+   Then to solve <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><span 
+class="cmmi-10">X </span>= <span 
+class="cmmi-10">AX,</span> <img 
+src="orddiff78x.png" alt="&#x20D7;x"  class="vec" >(0) = <img 
+src="orddiff79x.png" alt="&#x20D7;x0"  class="vec" >, we have <img 
+src="orddiff80x.png" alt="&#x20D7;x"  class="vec" >(<span 
+class="cmmi-10">t</span>) = &#x03A6;(<span 
+class="cmmi-10">t</span>)&#x03A6;<sup><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup>(0)<img 
+src="orddiff81x.png" alt="x&#x20D7;0"  class="vec" >
+To solve <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><span 
+class="cmmi-10">X </span>= <span 
+class="cmmi-10">AX</span>, we really want <span 
+class="cmmi-10">X </span>= <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">At</span></sup>. We know
+<span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">x</span></sup> = <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">n</span><span 
+class="cmr-7">=0</span></sub><sup><span 
+class="cmsy-7">&#x221E;</span></sup><img 
+src="orddiff82x.png" alt="xn
+n!"  class="frac" align="middle"> <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span></sup> = <span 
+class="cmex-10">&#x2211;</span><sub>
+<span 
+class="cmmi-7">n</span><span 
+class="cmr-7">=0</span></sub><sup><span 
+class="cmsy-7">&#x221E;</span></sup><img 
+src="orddiff83x.png" alt="An-
+n!"  class="frac" align="middle"> <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">At</span></sup> = <span 
+class="cmex-10">&#x2211;</span><sub>
+<span 
+class="cmmi-7">n</span><span 
+class="cmr-7">=0</span></sub><sup><span 
+class="cmsy-7">&#x221E;</span></sup><img 
+src="orddiff84x.png" alt="Antn
+ n!"  class="frac" align="middle">
+<!--l. 190--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-49000"></a><span 
+class="cmbx-10">Note 4.1.3.1:</span></span>
+   If <span 
+class="cmmi-10">AB </span>= <span 
+class="cmmi-10">BA</span>, <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span><span 
+class="cmr-7">+</span><span 
+class="cmmi-7">B</span></sup> = <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span></sup><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">B</span></sup>;(<span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span></sup>)<sup><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup> = <span 
+class="cmmi-10">e</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmmi-7">A</span></sup>;<span 
+class="cmmi-10">e</span><sup><span 
+class="cmr-7">0</span><span 
+class="cmsy-7">&#x2208;</span><span 
+class="cmmi-7">M</span><sub><span 
+class="cmmi-5">n</span><span 
+class="cmsy-5">&#x00D7;</span><span 
+class="cmmi-5">n</span></sub><span 
+class="cmr-7">(</span><span 
+class="cmmi-7">S</span><span 
+class="cmr-7">)</span></sup> = <span 
+class="cmmi-10">I</span>
+If <span 
+class="cmmi-10">A </span>= <span 
+class="cmmi-10">diag</span>(<span 
+class="cmmi-10">a</span><sub><span 
+class="cmr-7">1</span></sub><span 
+class="cmmi-10">,a</span><sub><span 
+class="cmr-7">2</span></sub><span 
+class="cmmi-10">,</span><img 
+src="orddiff85x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" ><span 
+class="cmmi-10">,a</span><sub><span 
+class="cmmi-7">n</span></sub>) then <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span></sup> = <span 
+class="cmmi-10">diag</span>(<span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">a</span><sub><span 
+class="cmr-5">1</span></sub></sup><span 
+class="cmmi-10">,e</span><sup><span 
+class="cmmi-7">a</span><sub><span 
+class="cmr-5">2</span></sub></sup><span 
+class="cmmi-10">,</span><img 
+src="orddiff86x.png" alt="&#x22C5;&#x22C5;&#x22C5;"  class="@cdots" ><span 
+class="cmmi-10">,e</span><sup><span 
+class="cmmi-7">a</span><sub><span 
+class="cmmi-5">n</span></sub></sup>)
+If <span 
+class="cmmi-10">A </span>= <span 
+class="cmmi-10">SDS</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup>  for a diagonal <span 
+class="cmmi-10">D </span>then <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span></sup> = <span 
+class="cmmi-10">Se</span><sup><span 
+class="cmmi-7">D</span></sup><span 
+class="cmmi-10">S</span><sup><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup>.
+
+if <span 
+class="cmmi-10">A </span>is non-diagonalizable, then cehck if there is <span 
+class="cmmi-10">n </span>s.t. <span 
+class="cmmi-10">A</span><sup><span 
+class="cmmi-7">n</span></sup> = 0. If so, than a
+polynomial can be constructed from <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span></sup> = <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">i</span><span 
+class="cmr-7">=0</span></sub><sup><span 
+class="cmmi-7">n</span></sup><img 
+src="orddiff87x.png" alt="Ai
+i!"  class="frac" align="middle"> <img 
+src="orddiff88x.png" alt="(   &#x221E;&#x2211;  An)
+ = n=0 n!"  class="left" align="middle">
+<!--l. 198--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-50000"></a><span 
+class="cmbx-10">Example 4.1.3.2</span></span>
+   For <span 
+class="cmmi-10">A </span>= <img 
+src="orddiff89x.png" alt="&#x230A;0  1  2&#x230B;
+&#x2308;0  0  3&#x2309;
+ 0  0  0"  class="left" align="middle">, <span 
+class="cmmi-10">A</span><sup><span 
+class="cmr-7">2</span></sup><span 
+class="cmmi-10">&#x2260;</span>0, <span 
+class="cmmi-10">A</span><sup><span 
+class="cmr-7">3</span></sup> = 0 <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">A</span></sup> = <span 
+class="cmex-10">&#x2211;</span>
+  <sub><span 
+class="cmmi-7">i</span><span 
+class="cmr-7">=0</span></sub><sup><span 
+class="cmr-7">2</span></sup><img 
+src="orddiff90x.png" alt="Ai
+ i!"  class="frac" align="middle"> = (<span 
+class="cmmi-10">A</span><sup><span 
+class="cmr-7">0</span></sup> = <span 
+class="cmmi-10">I</span>) + <span 
+class="cmmi-10">A </span>+ <img 
+src="orddiff91x.png" alt="1
+2"  class="frac" align="middle"><span 
+class="cmmi-10">A</span><sup><span 
+class="cmr-7">2</span></sup>
+<!--l. 200--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-51000"></a><span 
+class="cmbx-10">Note 4.1.3.3:</span></span>
+   If <span 
+class="cmmi-10">AB </span>= <span 
+class="cmmi-10">BA</span>, <span 
+class="cmmi-10">C </span>= <span 
+class="cmmi-10">A </span>+ <span 
+class="cmmi-10">B </span>then <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">Ct</span></sup> = <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">At</span></sup><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">Bt</span></sup>. Note that if <span 
+class="cmmi-10">A </span>= <span 
+class="cmmi-10">nI</span>,
+<span 
+class="cmmi-10">AB </span>= <span 
+class="cmmi-10">nIB </span>= <span 
+class="cmmi-10">nB </span>= <span 
+class="cmmi-10">Bn </span>= <span 
+class="cmmi-10">BnI </span>= <span 
+class="cmmi-10">BA</span>.
+<!--l. 202--><p class="noindent" ><span class="paragraphHead"><a 
+ id="x1-52000"></a></span>
+   Thus the solution to <span 
+class="cmmi-10">D</span><sub><span 
+class="cmmi-7">t</span></sub><img 
+src="orddiff92x.png" alt="&#x20D7;x"  class="vec" > = <span 
+class="cmmi-10">a</span><img 
+src="orddiff93x.png" alt="&#x20D7;x"  class="vec" ><span 
+class="cmmi-10">,</span> <img 
+src="orddiff94x.png" alt="&#x20D7;x"  class="vec" >(0) = <img 
+src="orddiff95x.png" alt="x&#x20D7;0"  class="vec" > is <img 
+src="orddiff96x.png" alt="&#x20D7;x"  class="vec" >(<span 
+class="cmmi-10">t</span>) = <span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">At</span></sup><img 
+src="orddiff97x.png" alt="&#x20D7;x0"  class="vec" >
+(= &#x03A6;(<span 
+class="cmmi-10">t</span>)&#x03A6;<sup><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup>(0)<img 
+src="orddiff98x.png" alt="x&#x20D7;0"  class="vec" > <span 
+class="cmsy-10">&#x21D2; </span><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">At</span></sup> = &#x03A6;(<span 
+class="cmmi-10">t</span>)&#x03A6;<sup><span 
+class="cmsy-7">-</span><span 
+class="cmr-7">1</span></sup>(0)<img 
+src="orddiff99x.png" alt="&#x20D7;x0"  class="vec" >)
+    
+</body></html> 
+
+
+

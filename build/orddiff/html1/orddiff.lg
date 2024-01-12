@@ -1,0 +1,260 @@
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmtt font-family: monospace,monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+File: orddiff.html
+File: orddiff.css
+File: orddiff.tmp
+Css: p{margin-top:0;margin-bottom:0}
+Css: p.indent{text-indent:0;}
+Css: p + p{margin-top:1em;}
+Css: p + div, p + pre {margin-top:1em;}
+Css: div + p, pre + p {margin-top:1em;}
+Css: a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: table.tabular{border-collapse: collapse; border-spacing: 0;}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: div.par-math-display, div.math-display{text-align:center;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p:first-child{ margin-bottom:0; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: div.newtheorem .head{font-weight: bold;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: .hline {border-top: 1px solid black;}
+Css: .hline + .vspace:last-child{display:none;}
+Css: .hline:first-child{border-bottom:1px solid black;border-top:none;}
+Css: .tabbing-right {text-align:right;}
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: .reversemarginpar{float:left;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .subsubsectionHead, .likesubsubsectionHead { font-size: 1em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Css: div.abstract p {margin-left:5%; margin-right:5%;}
+Css: div.abstract {width:100%;}
+Css: .abstracttitle{text-align:center;margin-bottom:1em;}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+--- needs --- orddiff.idv[2] ==> orddiff0x.png ---
+--- needs --- orddiff.idv[3] ==> orddiff1x.png ---
+--- needs --- orddiff.idv[4] ==> orddiff2x.png ---
+--- needs --- orddiff.idv[5] ==> orddiff3x.png ---
+--- needs --- orddiff.idv[6] ==> orddiff4x.png ---
+--- needs --- orddiff.idv[7] ==> orddiff5x.png ---
+--- needs --- orddiff.idv[8] ==> orddiff6x.png ---
+--- needs --- orddiff.idv[9] ==> orddiff7x.png ---
+--- needs --- orddiff.idv[10] ==> orddiff8x.png ---
+--- needs --- orddiff.idv[11] ==> orddiff9x.png ---
+--- needs --- orddiff.idv[12] ==> orddiff10x.png ---
+--- needs --- orddiff.idv[13] ==> orddiff11x.png ---
+--- needs --- orddiff.idv[14] ==> orddiff12x.png ---
+--- needs --- orddiff.idv[15] ==> orddiff13x.png ---
+--- needs --- orddiff.idv[16] ==> orddiff14x.png ---
+--- needs --- orddiff.idv[17] ==> orddiff15x.png ---
+--- needs --- orddiff.idv[18] ==> orddiff16x.png ---
+--- needs --- orddiff.idv[19] ==> orddiff17x.png ---
+--- needs --- orddiff.idv[20] ==> orddiff18x.png ---
+--- needs --- orddiff.idv[21] ==> orddiff19x.png ---
+--- needs --- orddiff.idv[22] ==> orddiff20x.png ---
+--- needs --- orddiff.idv[23] ==> orddiff21x.png ---
+--- needs --- orddiff.idv[24] ==> orddiff22x.png ---
+--- needs --- orddiff.idv[25] ==> orddiff23x.png ---
+--- needs --- orddiff.idv[26] ==> orddiff24x.png ---
+--- needs --- orddiff.idv[27] ==> orddiff25x.png ---
+--- needs --- orddiff.idv[28] ==> orddiff26x.png ---
+Css: #TBL-2-1{border-left: 1px solid black;}
+Css: #TBL-2-1{border-right:1px solid black;}
+Css: #TBL-2-2{border-right:1px solid black;}
+--- needs --- orddiff.idv[29] ==> orddiff27x.png ---
+--- needs --- orddiff.idv[30] ==> orddiff28x.png ---
+--- needs --- orddiff.idv[31] ==> orddiff29x.png ---
+--- needs --- orddiff.idv[32] ==> orddiff30x.png ---
+--- needs --- orddiff.idv[33] ==> orddiff31x.png ---
+--- needs --- orddiff.idv[34] ==> orddiff32x.png ---
+--- needs --- orddiff.idv[35] ==> orddiff33x.png ---
+--- needs --- orddiff.idv[36] ==> orddiff34x.png ---
+--- needs --- orddiff.idv[37] ==> orddiff35x.png ---
+--- needs --- orddiff.idv[38] ==> orddiff36x.png ---
+--- needs --- orddiff.idv[39] ==> orddiff37x.png ---
+--- needs --- orddiff.idv[40] ==> orddiff38x.png ---
+--- needs --- orddiff.idv[41] ==> orddiff39x.png ---
+--- needs --- orddiff.idv[42] ==> orddiff40x.png ---
+--- needs --- orddiff.idv[43] ==> orddiff41x.png ---
+--- needs --- orddiff.idv[44] ==> orddiff42x.png ---
+--- needs --- orddiff.idv[45] ==> orddiff43x.png ---
+--- needs --- orddiff.idv[46] ==> orddiff44x.png ---
+--- needs --- orddiff.idv[47] ==> orddiff45x.png ---
+--- needs --- orddiff.idv[48] ==> orddiff46x.png ---
+--- needs --- orddiff.idv[49] ==> orddiff47x.png ---
+--- needs --- orddiff.idv[50] ==> orddiff48x.png ---
+--- needs --- orddiff.idv[51] ==> orddiff49x.png ---
+--- needs --- orddiff.idv[52] ==> orddiff50x.png ---
+--- needs --- orddiff.idv[53] ==> orddiff51x.png ---
+--- needs --- orddiff.idv[54] ==> orddiff52x.png ---
+--- needs --- orddiff.idv[55] ==> orddiff53x.png ---
+--- needs --- orddiff.idv[56] ==> orddiff54x.png ---
+--- needs --- orddiff.idv[57] ==> orddiff55x.png ---
+--- needs --- orddiff.idv[58] ==> orddiff56x.png ---
+--- needs --- orddiff.idv[59] ==> orddiff57x.png ---
+--- needs --- orddiff.idv[60] ==> orddiff58x.png ---
+--- needs --- orddiff.idv[61] ==> orddiff59x.png ---
+--- needs --- orddiff.idv[62] ==> orddiff60x.png ---
+--- needs --- orddiff.idv[63] ==> orddiff61x.png ---
+--- needs --- orddiff.idv[64] ==> orddiff62x.png ---
+--- needs --- orddiff.idv[65] ==> orddiff63x.png ---
+--- needs --- orddiff.idv[66] ==> orddiff64x.png ---
+--- needs --- orddiff.idv[67] ==> orddiff65x.png ---
+--- needs --- orddiff.idv[68] ==> orddiff66x.png ---
+--- needs --- orddiff.idv[69] ==> orddiff67x.png ---
+--- needs --- orddiff.idv[70] ==> orddiff68x.png ---
+--- needs --- orddiff.idv[71] ==> orddiff69x.png ---
+--- needs --- orddiff.idv[72] ==> orddiff70x.png ---
+--- needs --- orddiff.idv[73] ==> orddiff71x.png ---
+--- needs --- orddiff.idv[74] ==> orddiff72x.png ---
+--- needs --- orddiff.idv[75] ==> orddiff73x.png ---
+--- needs --- orddiff.idv[76] ==> orddiff74x.png ---
+--- needs --- orddiff.idv[77] ==> orddiff75x.png ---
+--- needs --- orddiff.idv[78] ==> orddiff76x.png ---
+--- needs --- orddiff.idv[79] ==> orddiff77x.png ---
+--- needs --- orddiff.idv[80] ==> orddiff78x.png ---
+--- needs --- orddiff.idv[81] ==> orddiff79x.png ---
+--- needs --- orddiff.idv[82] ==> orddiff80x.png ---
+--- needs --- orddiff.idv[83] ==> orddiff81x.png ---
+--- needs --- orddiff.idv[84] ==> orddiff82x.png ---
+--- needs --- orddiff.idv[85] ==> orddiff83x.png ---
+--- needs --- orddiff.idv[86] ==> orddiff84x.png ---
+--- needs --- orddiff.idv[87] ==> orddiff85x.png ---
+--- needs --- orddiff.idv[88] ==> orddiff86x.png ---
+--- needs --- orddiff.idv[89] ==> orddiff87x.png ---
+--- needs --- orddiff.idv[90] ==> orddiff88x.png ---
+--- needs --- orddiff.idv[91] ==> orddiff89x.png ---
+--- needs --- orddiff.idv[92] ==> orddiff90x.png ---
+--- needs --- orddiff.idv[93] ==> orddiff91x.png ---
+--- needs --- orddiff.idv[94] ==> orddiff92x.png ---
+--- needs --- orddiff.idv[95] ==> orddiff93x.png ---
+--- needs --- orddiff.idv[96] ==> orddiff94x.png ---
+--- needs --- orddiff.idv[97] ==> orddiff95x.png ---
+--- needs --- orddiff.idv[98] ==> orddiff96x.png ---
+--- needs --- orddiff.idv[99] ==> orddiff97x.png ---
+--- needs --- orddiff.idv[100] ==> orddiff98x.png ---
+--- needs --- orddiff.idv[101] ==> orddiff99x.png ---
+--- characters ---
+Font("cmex","10","10","100")
+Font("cmr","5","5","100")
+Font("cmr","7","7","100")
+Font("cmr","10","10","100")
+Font("cmmi","5","5","100")
+Font("cmmi","7","7","100")
+Font("cmmi","10","10","100")
+Font("cmsy","5","5","100")
+Font("cmsy","7","7","100")
+Font("cmsy","10","10","100")
+Font("cmr","17","17","100")
+Font("cmr","12","12","100")
+Font("cmtt","10","10","100")
+Font("cmbx","10","10","100")
+Font("cmex","7","7","100")
